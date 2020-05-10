@@ -10,7 +10,6 @@ def parse(data, timestamp):
     """
     Parse infpyng response from fping cmd.
     """
-    ## TODO : set timestamp when fping run and not in loop
     for line in data.splitlines():
         # get host and metrics
         [host, s1] = line.split(" : ")
