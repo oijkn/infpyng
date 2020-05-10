@@ -5,5 +5,7 @@ infpyng can ping multiple host(s) at once by using fping and return statistics t
 
 # TODO
 pip3 intall toml
+
 telegraf ALL=(ALL) NOPASSWD: /usr/bin/python3
+
 chmod -R 755 infpyng/
