@@ -1,0 +1,5775 @@
+[[targets]]
+  hosts = ['fhz-chr72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-chr72-01'
+
+[[targets]]
+  hosts = ['fhz-per58-03.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-per58-03'
+
+[[targets]]
+  hosts = ['fhz-scl17-03.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-scl17-03'
+
+[[targets]]
+  hosts = ['fhz-scl17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-scl17-02'
+
+[[targets]]
+  hosts = ['fhz-fer72-03.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-fer72-03'
+
+[[targets]]
+  hosts = ['fhz-ent58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ent58-01'
+
+[[targets]]
+  hosts = ['fhz-val49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-val49-01'
+
+[[targets]]
+  hosts = ['fhz-mtl17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mtl17-01'
+
+[[targets]]
+  hosts = ['fhz-mon58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-mon58-01'
+
+[[targets]]
+  hosts = ['fhz-mfa26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-mfa26-01'
+
+[[targets]]
+  hosts = ['fhz-cha49-04.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-cha49-04'
+
+[[targets]]
+  hosts = ['fhz-gue23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gue23-01'
+
+[[targets]]
+  hosts = ['fhz-ag017-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ag017-01'
+
+[[targets]]
+  hosts = ['fhz-chn49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-chn49-01'
+
+[[targets]]
+  hosts = ['fhz-nnc17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-nnc17-01'
+
+[[targets]]
+  hosts = ['fhz-tic49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-tic49-01'
+
+[[targets]]
+  hosts = ['fhz-roc23-05.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-roc23-05'
+
+[[targets]]
+  hosts = ['fhz-spm49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-spm49-01'
+
+[[targets]]
+  hosts = ['fhz-mom58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-mom58-01'
+
+[[targets]]
+  hosts = ['fhz-ruo07-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-ruo07-01'
+
+[[targets]]
+  hosts = ['fhz-ruo07-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-ruo07-02'
+
+[[targets]]
+  hosts = ['fhz-chv17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-chv17-01'
+
+[[targets]]
+  hosts = ['fhz-scs07-03.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-scs07-03'
+
+[[targets]]
+  hosts = ['fhz-scs07-04.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-scs07-04'
+
+[[targets]]
+  hosts = ['fhz-oem58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-oem58-02'
+
+[[targets]]
+  hosts = ['fhz-pag87-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-pag87-04'
+
+[[targets]]
+  hosts = ['fhz-rem26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-rem26-01'
+
+[[targets]]
+  hosts = ['fhz-rov23-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-rov23-03'
+
+[[targets]]
+  hosts = ['fhz-spm58-03.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-spm58-03'
+
+[[targets]]
+  hosts = ['fhz-sro07-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-sro07-01'
+
+[[targets]]
+  hosts = ['fhz-bab19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bab19-02'
+
+[[targets]]
+  hosts = ['fhz-sro07-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-sro07-02'
+
+[[targets]]
+  hosts = ['fhz-val49-03.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-val49-03'
+
+[[targets]]
+  hosts = ['fhz-sei19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sei19-02'
+
+[[targets]]
+  hosts = ['fhz-w0017-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-w0017-01'
+
+[[targets]]
+  hosts = ['fhz-cha49-03.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-cha49-03'
+
+[[targets]]
+  hosts = ['fhz-cln58-03.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-cln58-03'
+
+[[targets]]
+  hosts = ['fhz-lgy58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lgy58-02'
+
+[[targets]]
+  hosts = ['fhz-alx26-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-alx26-02'
+
+[[targets]]
+  hosts = ['fhz-sfj19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfj19-03'
+
+[[targets]]
+  hosts = ['fhz-apo19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-apo19-01'
+
+[[targets]]
+  hosts = ['fhz-tie49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-tie49-01'
+
+[[targets]]
+  hosts = ['fhz-mye49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-mye49-02'
+
+[[targets]]
+  hosts = ['fhz-slg87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-slg87-01'
+
+[[targets]]
+  hosts = ['fhz-lgy58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lgy58-01'
+
+[[targets]]
+  hosts = ['fhz-tho49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-tho49-01'
+
+[[targets]]
+  hosts = ['fhz-czi49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-czi49-01'
+
+[[targets]]
+  hosts = ['fhz-scl17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-scl17-01'
+
+[[targets]]
+  hosts = ['fhz-sei19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sei19-01'
+
+[[targets]]
+  hosts = ['fhz-pua49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-pua49-01'
+
+[[targets]]
+  hosts = ['fhz-las49-02.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-las49-02'
+
+[[targets]]
+  hosts = ['fhz-lma58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lma58-02'
+
+[[targets]]
+  hosts = ['fhz-ctc49-03.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ctc49-03'
+
+[[targets]]
+  hosts = ['fhz-qur19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-qur19-02'
+
+[[targets]]
+  hosts = ['fhz-sma17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sma17-01'
+
+[[targets]]
+  hosts = ['fhz-lpl49-01.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-lpl49-01'
+
+[[targets]]
+  hosts = ['fhz-ldf58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ldf58-02'
+
+[[targets]]
+  hosts = ['fhz-ctc49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ctc49-02'
+
+[[targets]]
+  hosts = ['fhz-cnr17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-cnr17-01'
+
+[[targets]]
+  hosts = ['fhz-can49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-can49-01'
+
+[[targets]]
+  hosts = ['fhz-aub23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-aub23-02'
+
+[[targets]]
+  hosts = ['fhz-bab19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bab19-03'
+
+[[targets]]
+  hosts = ['fhz-aup87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-aup87-02'
+
+[[targets]]
+  hosts = ['fhz-val49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-val49-02'
+
+[[targets]]
+  hosts = ['fhz-auz23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-auz23-01'
+
+[[targets]]
+  hosts = ['fhz-loi49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-loi49-01'
+
+[[targets]]
+  hosts = ['fhz-azy58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-azy58-01'
+
+[[targets]]
+  hosts = ['fhz-baz58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-baz58-01'
+
+[[targets]]
+  hosts = ['fhz-aub23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-aub23-01'
+
+[[targets]]
+  hosts = ['fhz-noy49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-noy49-01'
+
+[[targets]]
+  hosts = ['fhz-ljb17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ljb17-01'
+
+[[targets]]
+  hosts = ['fhz-seh72-05.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-seh72-05'
+
+[[targets]]
+  hosts = ['fhz-spo72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-spo72-01'
+
+[[targets]]
+  hosts = ['fhz-loe72-02.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-loe72-02'
+
+[[targets]]
+  hosts = ['fhz-bon23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bon23-01'
+
+[[targets]]
+  hosts = ['fhz-sil72-02.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-sil72-02'
+
+[[targets]]
+  hosts = ['fhz-amn72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-amn72-01'
+
+[[targets]]
+  hosts = ['fhz-sil72-03.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-sil72-03'
+
+[[targets]]
+  hosts = ['fhz-chg23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-chg23-02'
+
+[[targets]]
+  hosts = ['fhz-loi49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-loi49-02'
+
+[[targets]]
+  hosts = ['fhz-sdp17-04.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sdp17-04'
+
+[[targets]]
+  hosts = ['fhz-ge949-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ge949-01'
+
+[[targets]]
+  hosts = ['fhz-pag87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-pag87-02'
+
+[[targets]]
+  hosts = ['fhz-for27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-for27-01'
+
+[[targets]]
+  hosts = ['fhz-sjl49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-sjl49-01'
+
+[[targets]]
+  hosts = ['fhz-chv23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-chv23-01'
+
+[[targets]]
+  hosts = ['fhz-cha49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-cha49-02'
+
+[[targets]]
+  hosts = ['fhz-mat17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mat17-01'
+
+[[targets]]
+  hosts = ['fhz-ce949-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ce949-01'
+
+[[targets]]
+  hosts = ['fhz-sla49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-sla49-02'
+
+[[targets]]
+  hosts = ['fhz-chs49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-chs49-01'
+
+[[targets]]
+  hosts = ['fhz-tar23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-tar23-01'
+
+[[targets]]
+  hosts = ['fhz-tar23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-tar23-02'
+
+[[targets]]
+  hosts = ['fhz-bre49-01.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-bre49-01'
+
+[[targets]]
+  hosts = ['fhz-fui49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-fui49-02'
+
+[[targets]]
+  hosts = ['fhz-sme19-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sme19-04'
+
+[[targets]]
+  hosts = ['fhz-ner17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ner17-02'
+
+[[targets]]
+  hosts = ['fhz-fui49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-fui49-01'
+
+[[targets]]
+  hosts = ['fhz-nex87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-nex87-02'
+
+[[targets]]
+  hosts = ['fhz-qur19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-qur19-01'
+
+[[targets]]
+  hosts = ['fhz-sel21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sel21-01'
+
+[[targets]]
+  hosts = ['fhz-arr65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-arr65-01'
+
+[[targets]]
+  hosts = ['fhz-mer89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mer89-03'
+
+[[targets]]
+  hosts = ['fhz-mer89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mer89-02'
+
+[[targets]]
+  hosts = ['fhz-blg49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-blg49-01'
+
+[[targets]]
+  hosts = ['fhz-slg21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-slg21-01'
+
+[[targets]]
+  hosts = ['fhz-bau71-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bau71-04'
+
+[[targets]]
+  hosts = ['fhz-bau71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bau71-02'
+
+[[targets]]
+  hosts = ['fhz-pag87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-pag87-01'
+
+[[targets]]
+  hosts = ['fhz-bau71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bau71-01'
+
+[[targets]]
+  hosts = ['fhz-maz23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-maz23-01'
+
+[[targets]]
+  hosts = ['fhz-bux71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bux71-01'
+
+[[targets]]
+  hosts = ['fhz-ton89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ton89-01'
+
+[[targets]]
+  hosts = ['fhz-ton89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ton89-02'
+
+[[targets]]
+  hosts = ['fhz-sab84-03.vau.axione.fr']
+  [targets.tags]
+     plaque = 'vau'
+     equip = 'fhz'
+     target = 'fhz-sab84-03'
+
+[[targets]]
+  hosts = ['fhz-chl17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-chl17-01'
+
+[[targets]]
+  hosts = ['fhz-arr65-03.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-arr65-03'
+
+[[targets]]
+  hosts = ['fhz-cff87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-cff87-02'
+
+[[targets]]
+  hosts = ['fhz-mr027-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-mr027-01'
+
+[[targets]]
+  hosts = ['fhz-ser65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ser65-01'
+
+[[targets]]
+  hosts = ['fhz-chl49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-chl49-01'
+
+[[targets]]
+  hosts = ['fhz-puc27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-puc27-01'
+
+[[targets]]
+  hosts = ['fhz-pac27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-pac27-01'
+
+[[targets]]
+  hosts = ['fhz-ves27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-ves27-01'
+
+[[targets]]
+  hosts = ['fhz-sry89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sry89-01'
+
+[[targets]]
+  hosts = ['fhz-puc27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-puc27-02'
+
+[[targets]]
+  hosts = ['fhz-par27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-par27-01'
+
+[[targets]]
+  hosts = ['fhz-sfl89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sfl89-01'
+
+[[targets]]
+  hosts = ['fhz-ves27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-ves27-02'
+
+[[targets]]
+  hosts = ['fhz-evr27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-evr27-03'
+
+[[targets]]
+  hosts = ['fhz-ges49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ges49-01'
+
+[[targets]]
+  hosts = ['fhz-evr27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-evr27-02'
+
+[[targets]]
+  hosts = ['fhz-evr27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-evr27-01'
+
+[[targets]]
+  hosts = ['fhz-sfo19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfo19-02'
+
+[[targets]]
+  hosts = ['fhz-ver27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-ver27-02'
+
+[[targets]]
+  hosts = ['fhz-chx21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chx21-02'
+
+[[targets]]
+  hosts = ['fhz-chx21-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chx21-04'
+
+[[targets]]
+  hosts = ['fhz-pta27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-pta27-01'
+
+[[targets]]
+  hosts = ['fhz-ae017-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ae017-01'
+
+[[targets]]
+  hosts = ['fhz-vit27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-vit27-01'
+
+[[targets]]
+  hosts = ['fhz-chx21-05.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chx21-05'
+
+[[targets]]
+  hosts = ['fhz-rom27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-rom27-01'
+
+[[targets]]
+  hosts = ['fhz-chx21-07.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chx21-07'
+
+[[targets]]
+  hosts = ['fhz-chx21-06.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chx21-06'
+
+[[targets]]
+  hosts = ['fhz-cor27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-cor27-02'
+
+[[targets]]
+  hosts = ['fhz-sdb27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-sdb27-01'
+
+[[targets]]
+  hosts = ['fhz-hmy87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-hmy87-01'
+
+[[targets]]
+  hosts = ['fhz-mer49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-mer49-01'
+
+[[targets]]
+  hosts = ['fhz-gru71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-gru71-03'
+
+[[targets]]
+  hosts = ['fhz-par27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-par27-02'
+
+[[targets]]
+  hosts = ['fhz-rom27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-rom27-02'
+
+[[targets]]
+  hosts = ['fhz-bre27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-bre27-01'
+
+[[targets]]
+  hosts = ['fhz-boi17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-boi17-01'
+
+[[targets]]
+  hosts = ['fhz-glc27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-glc27-01'
+
+[[targets]]
+  hosts = ['fhz-glc27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-glc27-02'
+
+[[targets]]
+  hosts = ['fhz-ber27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-ber27-01'
+
+[[targets]]
+  hosts = ['fhz-vit27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-vit27-02'
+
+[[targets]]
+  hosts = ['fhz-vit27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-vit27-03'
+
+[[targets]]
+  hosts = ['fhz-cor27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-cor27-01'
+
+[[targets]]
+  hosts = ['fhz-pta27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-pta27-02'
+
+[[targets]]
+  hosts = ['fhz-gru71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-gru71-01'
+
+[[targets]]
+  hosts = ['fhz-bv327-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-bv327-01'
+
+[[targets]]
+  hosts = ['fhz-cou27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-cou27-03'
+
+[[targets]]
+  hosts = ['fhz-lcr71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lcr71-03'
+
+[[targets]]
+  hosts = ['fhz-sgo23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgo23-02'
+
+[[targets]]
+  hosts = ['fhz-tib27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-tib27-02'
+
+[[targets]]
+  hosts = ['fhz-brr27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-brr27-02'
+
+[[targets]]
+  hosts = ['fhz-sau27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-sau27-01'
+
+[[targets]]
+  hosts = ['fhz-mlh89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mlh89-03'
+
+[[targets]]
+  hosts = ['fhz-ail27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-ail27-01'
+
+[[targets]]
+  hosts = ['fhz-mlh89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mlh89-02'
+
+[[targets]]
+  hosts = ['fhz-mlh89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mlh89-01'
+
+[[targets]]
+  hosts = ['fhz-arr65-04.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-arr65-04'
+
+[[targets]]
+  hosts = ['fhz-roc23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-roc23-01'
+
+[[targets]]
+  hosts = ['fhz-luc21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-luc21-01'
+
+[[targets]]
+  hosts = ['fhz-chv17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-chv17-02'
+
+[[targets]]
+  hosts = ['fhz-sdb27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-sdb27-03'
+
+[[targets]]
+  hosts = ['fhz-sdb27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-sdb27-02'
+
+[[targets]]
+  hosts = ['fhz-and27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-and27-01'
+
+[[targets]]
+  hosts = ['fhz-tib27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-tib27-01'
+
+[[targets]]
+  hosts = ['fhz-anh27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-anh27-01'
+
+[[targets]]
+  hosts = ['fhz-sme19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sme19-03'
+
+[[targets]]
+  hosts = ['fhz-brr27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-brr27-03'
+
+[[targets]]
+  hosts = ['fhz-cou27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-cou27-02'
+
+[[targets]]
+  hosts = ['fhz-and27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-and27-02'
+
+[[targets]]
+  hosts = ['fhz-and27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-and27-03'
+
+[[targets]]
+  hosts = ['fhz-ver27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-ver27-01'
+
+[[targets]]
+  hosts = ['fhz-for27-02.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-for27-02'
+
+[[targets]]
+  hosts = ['fhz-ant65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ant65-02'
+
+[[targets]]
+  hosts = ['fhz-brr27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-brr27-01'
+
+[[targets]]
+  hosts = ['fhz-cl987-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-cl987-01'
+
+[[targets]]
+  hosts = ['fhz-cou27-01.eur.axione.fr']
+  [targets.tags]
+     plaque = 'eur'
+     equip = 'fhz'
+     target = 'fhz-cou27-01'
+
+[[targets]]
+  hosts = ['fhz-lob49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-lob49-01'
+
+[[targets]]
+  hosts = ['fhz-mer27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-mer27-03'
+
+[[targets]]
+  hosts = ['fhz-mer27-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-mer27-01'
+
+[[targets]]
+  hosts = ['fhz-arr65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-arr65-02'
+
+[[targets]]
+  hosts = ['fhz-cuo49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-cuo49-01'
+
+[[targets]]
+  hosts = ['fhz-syb19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-syb19-01'
+
+[[targets]]
+  hosts = ['fhz-rov23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-rov23-02'
+
+[[targets]]
+  hosts = ['fhz-sdp17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sdp17-01'
+
+[[targets]]
+  hosts = ['fhz-sgl49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-sgl49-01'
+
+[[targets]]
+  hosts = ['fhz-blu19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-blu19-01'
+
+[[targets]]
+  hosts = ['fhz-sfo19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfo19-03'
+
+[[targets]]
+  hosts = ['fhz-mob49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-mob49-01'
+
+[[targets]]
+  hosts = ['fhz-cbe19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-cbe19-01'
+
+[[targets]]
+  hosts = ['fhz-mtl17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mtl17-02'
+
+[[targets]]
+  hosts = ['fhz-lca87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-lca87-01'
+
+[[targets]]
+  hosts = ['fhz-sai65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sai65-01'
+
+[[targets]]
+  hosts = ['fhz-vid49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-vid49-01'
+
+[[targets]]
+  hosts = ['fhz-nex87-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-nex87-03'
+
+[[targets]]
+  hosts = ['fhz-rch17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-rch17-01'
+
+[[targets]]
+  hosts = ['fhz-mon65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-mon65-01'
+
+[[targets]]
+  hosts = ['fhz-smd87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-smd87-01'
+
+[[targets]]
+  hosts = ['fhz-ssp71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ssp71-01'
+
+[[targets]]
+  hosts = ['fhz-lan65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lan65-01'
+
+[[targets]]
+  hosts = ['fhz-sgb87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgb87-01'
+
+[[targets]]
+  hosts = ['fhz-sla49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-sla49-01'
+
+[[targets]]
+  hosts = ['fhz-shc19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-shc19-02'
+
+[[targets]]
+  hosts = ['fhz-mem19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mem19-02'
+
+[[targets]]
+  hosts = ['fhz-ton17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ton17-01'
+
+[[targets]]
+  hosts = ['fhz-ctc49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ctc49-01'
+
+[[targets]]
+  hosts = ['fhz-bar65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-bar65-01'
+
+[[targets]]
+  hosts = ['fhz-sme19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sme19-01'
+
+[[targets]]
+  hosts = ['fhz-mem19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mem19-01'
+
+[[targets]]
+  hosts = ['fhz-roc17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-roc17-01'
+
+[[targets]]
+  hosts = ['fhz-shc19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-shc19-01'
+
+[[targets]]
+  hosts = ['fhz-bar65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-bar65-02'
+
+[[targets]]
+  hosts = ['fhz-ccr72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-ccr72-01'
+
+[[targets]]
+  hosts = ['fhz-chv17-03.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-chv17-03'
+
+[[targets]]
+  hosts = ['fhz-fef49-01.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-fef49-01'
+
+[[targets]]
+  hosts = ['fhz-sfj19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfj19-02'
+
+[[targets]]
+  hosts = ['fhz-fen23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-fen23-01'
+
+[[targets]]
+  hosts = ['fhz-bv327-02.eur.axione.fr']
+  [targets.tags]
+     plaque = 'eur'
+     equip = 'fhz'
+     target = 'fhz-bv327-02'
+
+[[targets]]
+  hosts = ['fhz-lud72-03.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-lud72-03'
+
+[[targets]]
+  hosts = ['fhz-las49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-las49-01'
+
+[[targets]]
+  hosts = ['fhz-boc23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-boc23-01'
+
+[[targets]]
+  hosts = ['fhz-mac71-07.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mac71-07'
+
+[[targets]]
+  hosts = ['fhz-mac71-06.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mac71-06'
+
+[[targets]]
+  hosts = ['fhz-mom58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-mom58-02'
+
+[[targets]]
+  hosts = ['fhz-bis21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bis21-01'
+
+[[targets]]
+  hosts = ['fhz-tre89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-tre89-03'
+
+[[targets]]
+  hosts = ['fhz-clu71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clu71-02'
+
+[[targets]]
+  hosts = ['fhz-tre89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-tre89-02'
+
+[[targets]]
+  hosts = ['fhz-tre89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-tre89-01'
+
+[[targets]]
+  hosts = ['fhz-sad65-04.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sad65-04'
+
+[[targets]]
+  hosts = ['fhz-clu71-05.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clu71-05'
+
+[[targets]]
+  hosts = ['fhz-sap58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-sap58-02'
+
+[[targets]]
+  hosts = ['fhz-aut71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-aut71-01'
+
+[[targets]]
+  hosts = ['fhz-clc89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clc89-02'
+
+[[targets]]
+  hosts = ['fhz-clc89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clc89-01'
+
+[[targets]]
+  hosts = ['fhz-tei72-02.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-tei72-02'
+
+[[targets]]
+  hosts = ['fhz-ani65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ani65-01'
+
+[[targets]]
+  hosts = ['fhz-mou19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mou19-02'
+
+[[targets]]
+  hosts = ['fhz-clc89-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clc89-04'
+
+[[targets]]
+  hosts = ['fhz-gir58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-gir58-01'
+
+[[targets]]
+  hosts = ['fhz-clc89-05.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clc89-05'
+
+[[targets]]
+  hosts = ['fhz-sbm21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sbm21-01'
+
+[[targets]]
+  hosts = ['fhz-sbm21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sbm21-02'
+
+[[targets]]
+  hosts = ['fhz-smc89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-smc89-01'
+
+[[targets]]
+  hosts = ['fhz-vil65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-vil65-01'
+
+[[targets]]
+  hosts = ['fhz-pla58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-pla58-01'
+
+[[targets]]
+  hosts = ['fhz-bis21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bis21-03'
+
+[[targets]]
+  hosts = ['fhz-mod19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mod19-01'
+
+[[targets]]
+  hosts = ['fhz-per89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-per89-01'
+
+[[targets]]
+  hosts = ['fhz-sel21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sel21-03'
+
+[[targets]]
+  hosts = ['fhz-per89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-per89-02'
+
+[[targets]]
+  hosts = ['fhz-sel21-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sel21-04'
+
+[[targets]]
+  hosts = ['fhz-lma58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lma58-01'
+
+[[targets]]
+  hosts = ['fhz-dam71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-dam71-02'
+
+[[targets]]
+  hosts = ['fhz-tua72-02.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-tua72-02'
+
+[[targets]]
+  hosts = ['fhz-smo89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-smo89-02'
+
+[[targets]]
+  hosts = ['fhz-nan87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-nan87-01'
+
+[[targets]]
+  hosts = ['fhz-smo89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-smo89-03'
+
+[[targets]]
+  hosts = ['fhz-con71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-con71-01'
+
+[[targets]]
+  hosts = ['fhz-ss158-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ss158-01'
+
+[[targets]]
+  hosts = ['fhz-sor71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sor71-03'
+
+[[targets]]
+  hosts = ['fhz-lzu65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lzu65-02'
+
+[[targets]]
+  hosts = ['fhz-ugl65-03.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ugl65-03'
+
+[[targets]]
+  hosts = ['fhz-sor71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sor71-02'
+
+[[targets]]
+  hosts = ['fhz-lar65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lar65-01'
+
+[[targets]]
+  hosts = ['fhz-cie65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-cie65-02'
+
+[[targets]]
+  hosts = ['fhz-pai21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pai21-03'
+
+[[targets]]
+  hosts = ['fhz-per58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-per58-02'
+
+[[targets]]
+  hosts = ['fhz-pai21-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pai21-04'
+
+[[targets]]
+  hosts = ['fhz-pai21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pai21-02'
+
+[[targets]]
+  hosts = ['fhz-tua72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-tua72-01'
+
+[[targets]]
+  hosts = ['fhz-tou71-05.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-tou71-05'
+
+[[targets]]
+  hosts = ['fhz-sbb58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-sbb58-02'
+
+[[targets]]
+  hosts = ['fhz-bvm19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bvm19-02'
+
+[[targets]]
+  hosts = ['fhz-mei21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mei21-01'
+
+[[targets]]
+  hosts = ['fhz-mei21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mei21-02'
+
+[[targets]]
+  hosts = ['fhz-fer72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-fer72-01'
+
+[[targets]]
+  hosts = ['fhz-plm71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-plm71-01'
+
+[[targets]]
+  hosts = ['fhz-iss71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-iss71-01'
+
+[[targets]]
+  hosts = ['fhz-dig71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-dig71-01'
+
+[[targets]]
+  hosts = ['fhz-msj21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-msj21-03'
+
+[[targets]]
+  hosts = ['fhz-ann58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ann58-01'
+
+[[targets]]
+  hosts = ['fhz-msj21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-msj21-02'
+
+[[targets]]
+  hosts = ['fhz-bel87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bel87-01'
+
+[[targets]]
+  hosts = ['fhz-iss71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-iss71-02'
+
+[[targets]]
+  hosts = ['fhz-sad65-03.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sad65-03'
+
+[[targets]]
+  hosts = ['fhz-pai89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pai89-01'
+
+[[targets]]
+  hosts = ['fhz-rou21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-rou21-01'
+
+[[targets]]
+  hosts = ['fhz-lar58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lar58-01'
+
+[[targets]]
+  hosts = ['fhz-cle89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cle89-03'
+
+[[targets]]
+  hosts = ['fhz-cor21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cor21-01'
+
+[[targets]]
+  hosts = ['fhz-ssu87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-ssu87-01'
+
+[[targets]]
+  hosts = ['fhz-sai89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sai89-01'
+
+[[targets]]
+  hosts = ['fhz-cui71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cui71-02'
+
+[[targets]]
+  hosts = ['fhz-lch72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-lch72-01'
+
+[[targets]]
+  hosts = ['fhz-cui71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cui71-01'
+
+[[targets]]
+  hosts = ['fhz-cie65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-cie65-01'
+
+[[targets]]
+  hosts = ['fhz-sad65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sad65-02'
+
+[[targets]]
+  hosts = ['fhz-sco89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sco89-03'
+
+[[targets]]
+  hosts = ['fhz-fen23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-fen23-02'
+
+[[targets]]
+  hosts = ['fhz-ssp71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ssp71-03'
+
+[[targets]]
+  hosts = ['fhz-tou58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-tou58-01'
+
+[[targets]]
+  hosts = ['fhz-mye58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-mye58-01'
+
+[[targets]]
+  hosts = ['fhz-msj21-05.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-msj21-05'
+
+[[targets]]
+  hosts = ['fhz-sad65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sad65-01'
+
+[[targets]]
+  hosts = ['fhz-msj21-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-msj21-04'
+
+[[targets]]
+  hosts = ['fhz-box21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-box21-01'
+
+[[targets]]
+  hosts = ['fhz-box21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-box21-02'
+
+[[targets]]
+  hosts = ['fhz-box21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-box21-03'
+
+[[targets]]
+  hosts = ['fhz-chb58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-chb58-02'
+
+[[targets]]
+  hosts = ['fhz-che71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-che71-01'
+
+[[targets]]
+  hosts = ['fhz-mtb21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mtb21-01'
+
+[[targets]]
+  hosts = ['fhz-mml71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mml71-02'
+
+[[targets]]
+  hosts = ['fhz-vih49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-vih49-01'
+
+[[targets]]
+  hosts = ['fhz-mml71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mml71-01'
+
+[[targets]]
+  hosts = ['fhz-dro87-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-dro87-03'
+
+[[targets]]
+  hosts = ['fhz-alx26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-alx26-01'
+
+[[targets]]
+  hosts = ['fhz-rec21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-rec21-02'
+
+[[targets]]
+  hosts = ['fhz-cpv58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-cpv58-01'
+
+[[targets]]
+  hosts = ['fhz-cpi49-01.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-cpi49-01'
+
+[[targets]]
+  hosts = ['fhz-tri65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-tri65-01'
+
+[[targets]]
+  hosts = ['fhz-sol58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-sol58-01'
+
+[[targets]]
+  hosts = ['fhz-eyg19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-eyg19-01'
+
+[[targets]]
+  hosts = ['fhz-ant65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ant65-01'
+
+[[targets]]
+  hosts = ['fhz-tou71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-tou71-02'
+
+[[targets]]
+  hosts = ['fhz-los21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-los21-01'
+
+[[targets]]
+  hosts = ['fhz-ssl49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ssl49-01'
+
+[[targets]]
+  hosts = ['fhz-vld89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-vld89-02'
+
+[[targets]]
+  hosts = ['fhz-cff87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-cff87-01'
+
+[[targets]]
+  hosts = ['fhz-asc71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-asc71-01'
+
+[[targets]]
+  hosts = ['fhz-mol89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mol89-03'
+
+[[targets]]
+  hosts = ['fhz-mes71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mes71-01'
+
+[[targets]]
+  hosts = ['fhz-dis49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-dis49-01'
+
+[[targets]]
+  hosts = ['fhz-lzu65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lzu65-01'
+
+[[targets]]
+  hosts = ['fhz-chb58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-chb58-01'
+
+[[targets]]
+  hosts = ['fhz-mom58-03.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-mom58-03'
+
+[[targets]]
+  hosts = ['fhz-chg23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-chg23-01'
+
+[[targets]]
+  hosts = ['fhz-sbb58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-sbb58-01'
+
+[[targets]]
+  hosts = ['fhz-jui19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-jui19-01'
+
+[[targets]]
+  hosts = ['fhz-mta65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-mta65-01'
+
+[[targets]]
+  hosts = ['fhz-cla65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-cla65-02'
+
+[[targets]]
+  hosts = ['fhz-oem58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-oem58-01'
+
+[[targets]]
+  hosts = ['fhz-cor19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-cor19-01'
+
+[[targets]]
+  hosts = ['fhz-cud72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-cud72-01'
+
+[[targets]]
+  hosts = ['fhz-ugl65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ugl65-01'
+
+[[targets]]
+  hosts = ['fhz-cln58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-cln58-01'
+
+[[targets]]
+  hosts = ['fhz-dom58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-dom58-01'
+
+[[targets]]
+  hosts = ['fhz-syb19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-syb19-02'
+
+[[targets]]
+  hosts = ['fhz-sap72-05.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-sap72-05'
+
+[[targets]]
+  hosts = ['fhz-slu58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-slu58-01'
+
+[[targets]]
+  hosts = ['fhz-ugl65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ugl65-02'
+
+[[targets]]
+  hosts = ['fhz-slb72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-slb72-01'
+
+[[targets]]
+  hosts = ['fhz-bou17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-bou17-01'
+
+[[targets]]
+  hosts = ['fhz-caz65-04.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-caz65-04'
+
+[[targets]]
+  hosts = ['fhz-alc58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-alc58-02'
+
+[[targets]]
+  hosts = ['fhz-sap72-03.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-sap72-03'
+
+[[targets]]
+  hosts = ['fhz-str17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-str17-01'
+
+[[targets]]
+  hosts = ['fhz-ama58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ama58-01'
+
+[[targets]]
+  hosts = ['fhz-sfo71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sfo71-01'
+
+[[targets]]
+  hosts = ['fhz-lud72-02.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-lud72-02'
+
+[[targets]]
+  hosts = ['fhz-sfo71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sfo71-03'
+
+[[targets]]
+  hosts = ['fhz-vll65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-vll65-01'
+
+[[targets]]
+  hosts = ['fhz-luz58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-luz58-01'
+
+[[targets]]
+  hosts = ['fhz-sal23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sal23-01'
+
+[[targets]]
+  hosts = ['fhz-spc23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-spc23-01'
+
+[[targets]]
+  hosts = ['fhz-cal72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-cal72-01'
+
+[[targets]]
+  hosts = ['fhz-bsa07-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-bsa07-01'
+
+[[targets]]
+  hosts = ['fhz-san19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-san19-01'
+
+[[targets]]
+  hosts = ['fhz-sfj19-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfj19-04'
+
+[[targets]]
+  hosts = ['fhz-smr89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-smr89-01'
+
+[[targets]]
+  hosts = ['fhz-eyg19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-eyg19-02'
+
+[[targets]]
+  hosts = ['fhz-shc19-06.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-shc19-06'
+
+[[targets]]
+  hosts = ['fhz-nvc19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-nvc19-01'
+
+[[targets]]
+  hosts = ['fhz-bor19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bor19-02'
+
+[[targets]]
+  hosts = ['fhz-mot65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-mot65-01'
+
+[[targets]]
+  hosts = ['fhz-bug19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bug19-02'
+
+[[targets]]
+  hosts = ['fhz-sre71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sre71-02'
+
+[[targets]]
+  hosts = ['fhz-smb23-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-smb23-03'
+
+[[targets]]
+  hosts = ['fhz-ch658-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ch658-01'
+
+[[targets]]
+  hosts = ['fhz-brv17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-brv17-01'
+
+[[targets]]
+  hosts = ['fhz-roy23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-roy23-01'
+
+[[targets]]
+  hosts = ['fhz-sre71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sre71-03'
+
+[[targets]]
+  hosts = ['fhz-tar19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-tar19-01'
+
+[[targets]]
+  hosts = ['fhz-sre71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sre71-01'
+
+[[targets]]
+  hosts = ['fhz-cls21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cls21-01'
+
+[[targets]]
+  hosts = ['fhz-sya87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sya87-01'
+
+[[targets]]
+  hosts = ['fhz-sre71-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sre71-04'
+
+[[targets]]
+  hosts = ['fhz-org87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-org87-02'
+
+[[targets]]
+  hosts = ['fhz-gaj87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gaj87-01'
+
+[[targets]]
+  hosts = ['fhz-cls21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cls21-02'
+
+[[targets]]
+  hosts = ['fhz-taj65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-taj65-01'
+
+[[targets]]
+  hosts = ['fhz-blo87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-blo87-02'
+
+[[targets]]
+  hosts = ['fhz-cls21-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cls21-04'
+
+[[targets]]
+  hosts = ['fhz-blo87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-blo87-01'
+
+[[targets]]
+  hosts = ['fhz-bel87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bel87-02'
+
+[[targets]]
+  hosts = ['fhz-cha87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-cha87-01'
+
+[[targets]]
+  hosts = ['fhz-nan87-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-nan87-03'
+
+[[targets]]
+  hosts = ['fhz-aj017-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-aj017-01'
+
+[[targets]]
+  hosts = ['fhz-sgo23-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgo23-04'
+
+[[targets]]
+  hosts = ['fhz-bof23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bof23-01'
+
+[[targets]]
+  hosts = ['fhz-pui21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pui21-03'
+
+[[targets]]
+  hosts = ['fhz-sgo23-05.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgo23-05'
+
+[[targets]]
+  hosts = ['fhz-pui21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pui21-02'
+
+[[targets]]
+  hosts = ['fhz-lpl23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-lpl23-01'
+
+[[targets]]
+  hosts = ['fhz-sgo23-06.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgo23-06'
+
+[[targets]]
+  hosts = ['fhz-spm58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-spm58-01'
+
+[[targets]]
+  hosts = ['fhz-lmb19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-lmb19-01'
+
+[[targets]]
+  hosts = ['fhz-sou19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sou19-02'
+
+[[targets]]
+  hosts = ['fhz-sou19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sou19-01'
+
+[[targets]]
+  hosts = ['fhz-mem19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mem19-03'
+
+[[targets]]
+  hosts = ['fhz-clo72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-clo72-01'
+
+[[targets]]
+  hosts = ['fhz-scs07-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-scs07-01'
+
+[[targets]]
+  hosts = ['fhz-nex87-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-nex87-04'
+
+[[targets]]
+  hosts = ['fhz-pic21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pic21-02'
+
+[[targets]]
+  hosts = ['fhz-bus87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bus87-01'
+
+[[targets]]
+  hosts = ['fhz-gll19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gll19-01'
+
+[[targets]]
+  hosts = ['fhz-mou19-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mou19-04'
+
+[[targets]]
+  hosts = ['fhz-sba19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sba19-01'
+
+[[targets]]
+  hosts = ['fhz-lan58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lan58-01'
+
+[[targets]]
+  hosts = ['fhz-lac19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-lac19-02'
+
+[[targets]]
+  hosts = ['fhz-sai17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sai17-01'
+
+[[targets]]
+  hosts = ['fhz-rab87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-rab87-01'
+
+[[targets]]
+  hosts = ['fhz-lac19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-lac19-01'
+
+[[targets]]
+  hosts = ['fhz-pif89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pif89-01'
+
+[[targets]]
+  hosts = ['fhz-vol89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-vol89-01'
+
+[[targets]]
+  hosts = ['fhz-rou26-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-rou26-02'
+
+[[targets]]
+  hosts = ['fhz-pon72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-pon72-01'
+
+[[targets]]
+  hosts = ['fhz-bao65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-bao65-01'
+
+[[targets]]
+  hosts = ['fhz-spl19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-spl19-01'
+
+[[targets]]
+  hosts = ['fhz-sme19-06.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sme19-06'
+
+[[targets]]
+  hosts = ['fhz-eyr19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-eyr19-01'
+
+[[targets]]
+  hosts = ['fhz-sme19-05.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sme19-05'
+
+[[targets]]
+  hosts = ['fhz-mad19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mad19-01'
+
+[[targets]]
+  hosts = ['fhz-vol89-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-vol89-04'
+
+[[targets]]
+  hosts = ['fhz-uze19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-uze19-02'
+
+[[targets]]
+  hosts = ['fhz-cnr17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-cnr17-02'
+
+[[targets]]
+  hosts = ['fhz-gen87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gen87-01'
+
+[[targets]]
+  hosts = ['fhz-spi87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-spi87-01'
+
+[[targets]]
+  hosts = ['fhz-val89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-val89-01'
+
+[[targets]]
+  hosts = ['fhz-lar65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lar65-02'
+
+[[targets]]
+  hosts = ['fhz-boi87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-boi87-02'
+
+[[targets]]
+  hosts = ['fhz-vqb87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-vqb87-01'
+
+[[targets]]
+  hosts = ['fhz-boi87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-boi87-01'
+
+[[targets]]
+  hosts = ['fhz-hrn87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-hrn87-01'
+
+[[targets]]
+  hosts = ['fhz-dou87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-dou87-02'
+
+[[targets]]
+  hosts = ['fhz-lta71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lta71-01'
+
+[[targets]]
+  hosts = ['fhz-sap72-04.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-sap72-04'
+
+[[targets]]
+  hosts = ['fhz-nex87-05.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-nex87-05'
+
+[[targets]]
+  hosts = ['fhz-anc21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-anc21-01'
+
+[[targets]]
+  hosts = ['fhz-mac71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mac71-01'
+
+[[targets]]
+  hosts = ['fhz-rch17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-rch17-02'
+
+[[targets]]
+  hosts = ['fhz-ssv21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ssv21-01'
+
+[[targets]]
+  hosts = ['fhz-fre72-02.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-fre72-02'
+
+[[targets]]
+  hosts = ['fhz-chn58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-chn58-02'
+
+[[targets]]
+  hosts = ['fhz-bag65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-bag65-01'
+
+[[targets]]
+  hosts = ['fhz-lev21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lev21-02'
+
+[[targets]]
+  hosts = ['fhz-rou26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-rou26-01'
+
+[[targets]]
+  hosts = ['fhz-lev21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lev21-03'
+
+[[targets]]
+  hosts = ['fhz-mac71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mac71-02'
+
+[[targets]]
+  hosts = ['fhz-lev21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lev21-01'
+
+[[targets]]
+  hosts = ['fhz-cro71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cro71-01'
+
+[[targets]]
+  hosts = ['fhz-val89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-val89-02'
+
+[[targets]]
+  hosts = ['fhz-caz65-03.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-caz65-03'
+
+[[targets]]
+  hosts = ['fhz-ozt39-03.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-ozt39-03'
+
+[[targets]]
+  hosts = ['fhz-rov23-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-rov23-04'
+
+[[targets]]
+  hosts = ['fhz-mlc71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mlc71-03'
+
+[[targets]]
+  hosts = ['fhz-syb19-05.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-syb19-05'
+
+[[targets]]
+  hosts = ['fhz-pey87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-pey87-01'
+
+[[targets]]
+  hosts = ['fhz-lcr71-05.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lcr71-05'
+
+[[targets]]
+  hosts = ['fhz-ave65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ave65-02'
+
+[[targets]]
+  hosts = ['fhz-chb19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-chb19-01'
+
+[[targets]]
+  hosts = ['fhz-pon21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pon21-02'
+
+[[targets]]
+  hosts = ['fhz-gen65-03.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-gen65-03'
+
+[[targets]]
+  hosts = ['fhz-mr239-02.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-mr239-02'
+
+[[targets]]
+  hosts = ['fhz-sor65-03.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sor65-03'
+
+[[targets]]
+  hosts = ['fhz-aig39-02.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-aig39-02'
+
+[[targets]]
+  hosts = ['fhz-ozt39-04.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-ozt39-04'
+
+[[targets]]
+  hosts = ['fhz-chg39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-chg39-01'
+
+[[targets]]
+  hosts = ['fhz-los21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-los21-02'
+
+[[targets]]
+  hosts = ['fhz-ozt39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-ozt39-01'
+
+[[targets]]
+  hosts = ['fhz-snj39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-snj39-01'
+
+[[targets]]
+  hosts = ['fhz-lai39-02.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-lai39-02'
+
+[[targets]]
+  hosts = ['fhz-scs21-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-scs21-01'
+
+[[targets]]
+  hosts = ['fhz-trf23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-trf23-01'
+
+[[targets]]
+  hosts = ['fhz-lco39-02.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-lco39-02'
+
+[[targets]]
+  hosts = ['fhz-mta39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-mta39-01'
+
+[[targets]]
+  hosts = ['fhz-box21-05.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-box21-05'
+
+[[targets]]
+  hosts = ['fhz-maz65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-maz65-01'
+
+[[targets]]
+  hosts = ['fhz-gra87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gra87-01'
+
+[[targets]]
+  hosts = ['fhz-chg39-02.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-chg39-02'
+
+[[targets]]
+  hosts = ['fhz-sav21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sav21-02'
+
+[[targets]]
+  hosts = ['fhz-fre23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-fre23-02'
+
+[[targets]]
+  hosts = ['fhz-mon39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-mon39-01'
+
+[[targets]]
+  hosts = ['fhz-dij21-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-dij21-04'
+
+[[targets]]
+  hosts = ['fhz-gen65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-gen65-02'
+
+[[targets]]
+  hosts = ['fhz-mer89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mer89-01'
+
+[[targets]]
+  hosts = ['fhz-lco39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-lco39-01'
+
+[[targets]]
+  hosts = ['fhz-lai39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-lai39-01'
+
+[[targets]]
+  hosts = ['fhz-maz65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-maz65-02'
+
+[[targets]]
+  hosts = ['fhz-cy439-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-cy439-01'
+
+[[targets]]
+  hosts = ['fhz-lrt39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-lrt39-01'
+
+[[targets]]
+  hosts = ['fhz-lai39-03.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-lai39-03'
+
+[[targets]]
+  hosts = ['fhz-syb19-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-syb19-04'
+
+[[targets]]
+  hosts = ['fhz-mir39-02.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-mir39-02'
+
+[[targets]]
+  hosts = ['fhz-chi89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chi89-01'
+
+[[targets]]
+  hosts = ['fhz-cha49-05.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-cha49-05'
+
+[[targets]]
+  hosts = ['fhz-ge949-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ge949-02'
+
+[[targets]]
+  hosts = ['fhz-jyv49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-jyv49-01'
+
+[[targets]]
+  hosts = ['fhz-seg49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-seg49-02'
+
+[[targets]]
+  hosts = ['fhz-jal49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-jal49-01'
+
+[[targets]]
+  hosts = ['fhz-gue23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gue23-02'
+
+[[targets]]
+  hosts = ['fhz-mta39-02.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-mta39-02'
+
+[[targets]]
+  hosts = ['fhz-mar49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-mar49-01'
+
+[[targets]]
+  hosts = ['fhz-lpz49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-lpz49-01'
+
+[[targets]]
+  hosts = ['fhz-ctr49-03.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ctr49-03'
+
+[[targets]]
+  hosts = ['fhz-blg49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-blg49-02'
+
+[[targets]]
+  hosts = ['fhz-ctr49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ctr49-02'
+
+[[targets]]
+  hosts = ['fhz-chz49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-chz49-01'
+
+[[targets]]
+  hosts = ['fhz-ctr49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-ctr49-01'
+
+[[targets]]
+  hosts = ['fhz-mye49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-mye49-01'
+
+[[targets]]
+  hosts = ['fhz-cly49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-cly49-01'
+
+[[targets]]
+  hosts = ['fhz-ber65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ber65-02'
+
+[[targets]]
+  hosts = ['fhz-fre23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-fre23-01'
+
+[[targets]]
+  hosts = ['fhz-gny39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-gny39-01'
+
+[[targets]]
+  hosts = ['fhz-vib39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-vib39-01'
+
+[[targets]]
+  hosts = ['fhz-noz39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-noz39-01'
+
+[[targets]]
+  hosts = ['fhz-mir39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-mir39-01'
+
+[[targets]]
+  hosts = ['fhz-crx39-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-crx39-01'
+
+[[targets]]
+  hosts = ['fhz-biz65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-biz65-01'
+
+[[targets]]
+  hosts = ['fhz-crt23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-crt23-01'
+
+[[targets]]
+  hosts = ['fhz-pey65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-pey65-01'
+
+[[targets]]
+  hosts = ['fhz-mgl87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mgl87-01'
+
+[[targets]]
+  hosts = ['fhz-ber65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ber65-01'
+
+[[targets]]
+  hosts = ['fhz-dro87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-dro87-02'
+
+[[targets]]
+  hosts = ['fhz-cla65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-cla65-01'
+
+[[targets]]
+  hosts = ['fhz-chp87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-chp87-01'
+
+[[targets]]
+  hosts = ['fhz-tha89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-tha89-01'
+
+[[targets]]
+  hosts = ['fhz-rov23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-rov23-01'
+
+[[targets]]
+  hosts = ['fhz-mou65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-mou65-02'
+
+[[targets]]
+  hosts = ['fhz-arg19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-arg19-01'
+
+[[targets]]
+  hosts = ['fhz-his65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-his65-01'
+
+[[targets]]
+  hosts = ['fhz-mtl89-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mtl89-04'
+
+[[targets]]
+  hosts = ['fhz-roc23-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-roc23-03'
+
+[[targets]]
+  hosts = ['fhz-cls21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cls21-03'
+
+[[targets]]
+  hosts = ['fhz-ozo65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ozo65-01'
+
+[[targets]]
+  hosts = ['fhz-mzr17-04.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mzr17-04'
+
+[[targets]]
+  hosts = ['fhz-slb89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-slb89-01'
+
+[[targets]]
+  hosts = ['fhz-chi89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chi89-02'
+
+[[targets]]
+  hosts = ['fhz-ven17-04.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ven17-04'
+
+[[targets]]
+  hosts = ['fhz-sba58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-sba58-01'
+
+[[targets]]
+  hosts = ['fhz-bey19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bey19-01'
+
+[[targets]]
+  hosts = ['fhz-for27-03.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-for27-03'
+
+[[targets]]
+  hosts = ['fhz-nou65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-nou65-02'
+
+[[targets]]
+  hosts = ['fhz-nou65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-nou65-01'
+
+[[targets]]
+  hosts = ['fhz-sco89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sco89-02'
+
+[[targets]]
+  hosts = ['fhz-ldf58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ldf58-01'
+
+[[targets]]
+  hosts = ['fhz-pag87-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-pag87-03'
+
+[[targets]]
+  hosts = ['fhz-sco89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sco89-01'
+
+[[targets]]
+  hosts = ['fhz-van58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-van58-01'
+
+[[targets]]
+  hosts = ['fhz-stl65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-stl65-01'
+
+[[targets]]
+  hosts = ['fhz-bes87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bes87-01'
+
+[[targets]]
+  hosts = ['fhz-alc58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-alc58-01'
+
+[[targets]]
+  hosts = ['fhz-mtl89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mtl89-02'
+
+[[targets]]
+  hosts = ['fhz-eym87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-eym87-01'
+
+[[targets]]
+  hosts = ['fhz-scp17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-scp17-01'
+
+[[targets]]
+  hosts = ['fhz-ton17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ton17-02'
+
+[[targets]]
+  hosts = ['fhz-sou17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sou17-01'
+
+[[targets]]
+  hosts = ['fhz-sap58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-sap58-01'
+
+[[targets]]
+  hosts = ['fhz-par89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-par89-02'
+
+[[targets]]
+  hosts = ['fhz-mrg17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mrg17-01'
+
+[[targets]]
+  hosts = ['fhz-sou17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sou17-02'
+
+[[targets]]
+  hosts = ['fhz-ton17-03.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ton17-03'
+
+[[targets]]
+  hosts = ['fhz-msc17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-msc17-01'
+
+[[targets]]
+  hosts = ['fhz-brv17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-brv17-02'
+
+[[targets]]
+  hosts = ['fhz-ech17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ech17-01'
+
+[[targets]]
+  hosts = ['fhz-mtl17-03.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mtl17-03'
+
+[[targets]]
+  hosts = ['fhz-lab65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lab65-02'
+
+[[targets]]
+  hosts = ['fhz-sor65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sor65-01'
+
+[[targets]]
+  hosts = ['fhz-par89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-par89-01'
+
+[[targets]]
+  hosts = ['fhz-boi17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-boi17-02'
+
+[[targets]]
+  hosts = ['fhz-cpc17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-cpc17-01'
+
+[[targets]]
+  hosts = ['fhz-rch17-03.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-rch17-03'
+
+[[targets]]
+  hosts = ['fhz-sgo23-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgo23-03'
+
+[[targets]]
+  hosts = ['fhz-brd17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-brd17-01'
+
+[[targets]]
+  hosts = ['fhz-fir58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-fir58-02'
+
+[[targets]]
+  hosts = ['fhz-mol89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mol89-02'
+
+[[targets]]
+  hosts = ['fhz-per58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-per58-01'
+
+[[targets]]
+  hosts = ['fhz-vld89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-vld89-03'
+
+[[targets]]
+  hosts = ['fhz-saj23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-saj23-01'
+
+[[targets]]
+  hosts = ['fhz-lab65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lab65-01'
+
+[[targets]]
+  hosts = ['fhz-msv71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-msv71-01'
+
+[[targets]]
+  hosts = ['fhz-bou58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-bou58-01'
+
+[[targets]]
+  hosts = ['fhz-sor65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sor65-02'
+
+[[targets]]
+  hosts = ['fhz-bis21-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bis21-02'
+
+[[targets]]
+  hosts = ['fhz-mtl89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mtl89-01'
+
+[[targets]]
+  hosts = ['fhz-ave65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ave65-01'
+
+[[targets]]
+  hosts = ['fhz-roc23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-roc23-02'
+
+[[targets]]
+  hosts = ['fhz-fir58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-fir58-01'
+
+[[targets]]
+  hosts = ['fhz-lcr71-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lcr71-04'
+
+[[targets]]
+  hosts = ['fhz-ver26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-ver26-01'
+
+[[targets]]
+  hosts = ['fhz-shc19-05.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-shc19-05'
+
+[[targets]]
+  hosts = ['fhz-scl89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-scl89-01'
+
+[[targets]]
+  hosts = ['fhz-chn58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-chn58-01'
+
+[[targets]]
+  hosts = ['fhz-bou65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-bou65-01'
+
+[[targets]]
+  hosts = ['fhz-sfj19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfj19-01'
+
+[[targets]]
+  hosts = ['fhz-sgb87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgb87-02'
+
+[[targets]]
+  hosts = ['fhz-msv71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-msv71-02'
+
+[[targets]]
+  hosts = ['fhz-bf017-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-bf017-01'
+
+[[targets]]
+  hosts = ['fhz-dro87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-dro87-01'
+
+[[targets]]
+  hosts = ['fhz-fer19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-fer19-01'
+
+[[targets]]
+  hosts = ['fhz-clu71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clu71-03'
+
+[[targets]]
+  hosts = ['fhz-fou17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-fou17-01'
+
+[[targets]]
+  hosts = ['fhz-gue23-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gue23-03'
+
+[[targets]]
+  hosts = ['fhz-clu71-06.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-clu71-06'
+
+[[targets]]
+  hosts = ['fhz-sgo23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sgo23-01'
+
+[[targets]]
+  hosts = ['fhz-sat17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sat17-01'
+
+[[targets]]
+  hosts = ['fhz-sar89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sar89-01'
+
+[[targets]]
+  hosts = ['fhz-mou89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mou89-01'
+
+[[targets]]
+  hosts = ['fhz-bes87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bes87-02'
+
+[[targets]]
+  hosts = ['fhz-sfo19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfo19-01'
+
+[[targets]]
+  hosts = ['fhz-mou19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mou19-01'
+
+[[targets]]
+  hosts = ['fhz-sco89-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sco89-04'
+
+[[targets]]
+  hosts = ['fhz-pal17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-pal17-01'
+
+[[targets]]
+  hosts = ['fhz-sde17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sde17-01'
+
+[[targets]]
+  hosts = ['fhz-bug19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bug19-01'
+
+[[targets]]
+  hosts = ['fhz-fle71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-fle71-01'
+
+[[targets]]
+  hosts = ['fhz-fou17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-fou17-02'
+
+[[targets]]
+  hosts = ['fhz-lan65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-lan65-02'
+
+[[targets]]
+  hosts = ['fhz-spi17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-spi17-01'
+
+[[targets]]
+  hosts = ['fhz-sdp17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sdp17-02'
+
+[[targets]]
+  hosts = ['fhz-chi89-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chi89-03'
+
+[[targets]]
+  hosts = ['fhz-ner17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ner17-01'
+
+[[targets]]
+  hosts = ['fhz-shc19-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-shc19-04'
+
+[[targets]]
+  hosts = ['fhz-caz65-02.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-caz65-02'
+
+[[targets]]
+  hosts = ['fhz-pss89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-pss89-01'
+
+[[targets]]
+  hosts = ['fhz-sdp17-03.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-sdp17-03'
+
+[[targets]]
+  hosts = ['fhz-the17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-the17-01'
+
+[[targets]]
+  hosts = ['fhz-bvm19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-bvm19-01'
+
+[[targets]]
+  hosts = ['fhz-caz65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-caz65-01'
+
+[[targets]]
+  hosts = ['fhz-v0017-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-v0017-01'
+
+[[targets]]
+  hosts = ['fhz-msv71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-msv71-03'
+
+[[targets]]
+  hosts = ['fhz-gen65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-gen65-01'
+
+[[targets]]
+  hosts = ['fhz-mon17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mon17-02'
+
+[[targets]]
+  hosts = ['fhz-syb19-06.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-syb19-06'
+
+[[targets]]
+  hosts = ['fhz-iss71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-iss71-03'
+
+[[targets]]
+  hosts = ['fhz-slu58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-slu58-02'
+
+[[targets]]
+  hosts = ['fhz-chi89-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-chi89-04'
+
+[[targets]]
+  hosts = ['fhz-mdm17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mdm17-01'
+
+[[targets]]
+  hosts = ['fhz-cln58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-cln58-02'
+
+[[targets]]
+  hosts = ['fhz-cha71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cha71-01'
+
+[[targets]]
+  hosts = ['fhz-ave65-03.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-ave65-03'
+
+[[targets]]
+  hosts = ['fhz-sdi65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-sdi65-01'
+
+[[targets]]
+  hosts = ['fhz-the17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-the17-02'
+
+[[targets]]
+  hosts = ['fhz-tnc19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-tnc19-01'
+
+[[targets]]
+  hosts = ['fhz-sai89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sai89-02'
+
+[[targets]]
+  hosts = ['fhz-cie65-04.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-cie65-04'
+
+[[targets]]
+  hosts = ['fhz-ber07-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-ber07-01'
+
+[[targets]]
+  hosts = ['fhz-ozi17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-ozi17-01'
+
+[[targets]]
+  hosts = ['fhz-cla17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-cla17-02'
+
+[[targets]]
+  hosts = ['fhz-vig19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-vig19-01'
+
+[[targets]]
+  hosts = ['fhz-sar89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-sar89-02'
+
+[[targets]]
+  hosts = ['fhz-mou65-01.hpy.axione.fr']
+  [targets.tags]
+     plaque = 'hpy'
+     equip = 'fhz'
+     target = 'fhz-mou65-01'
+
+[[targets]]
+  hosts = ['fhz-sci19-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sci19-02'
+
+[[targets]]
+  hosts = ['fhz-cha26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-cha26-01'
+
+[[targets]]
+  hosts = ['fhz-oua89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-oua89-01'
+
+[[targets]]
+  hosts = ['fhz-coz17-02.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-coz17-02'
+
+[[targets]]
+  hosts = ['fhz-ann89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ann89-01'
+
+[[targets]]
+  hosts = ['fhz-ber07-03.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-ber07-03'
+
+[[targets]]
+  hosts = ['fhz-buh19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-buh19-01'
+
+[[targets]]
+  hosts = ['fhz-aur19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-aur19-01'
+
+[[targets]]
+  hosts = ['fhz-cha26-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-cha26-02'
+
+[[targets]]
+  hosts = ['fhz-brv17-03.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-brv17-03'
+
+[[targets]]
+  hosts = ['fhz-log49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-log49-01'
+
+[[targets]]
+  hosts = ['fhz-mai86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mai86-02'
+
+[[targets]]
+  hosts = ['fhz-lfy27-01.eur.axione.fr']
+  [targets.tags]
+     plaque = 'eur'
+     equip = 'fhz'
+     target = 'fhz-lfy27-01'
+
+[[targets]]
+  hosts = ['fhz-mai86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mai86-01'
+
+[[targets]]
+  hosts = ['fhz-bux86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-bux86-01'
+
+[[targets]]
+  hosts = ['fhz-sci19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sci19-01'
+
+[[targets]]
+  hosts = ['fhz-msg86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-msg86-01'
+
+[[targets]]
+  hosts = ['fhz-adr86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-adr86-01'
+
+[[targets]]
+  hosts = ['fhz-nio86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-nio86-01'
+
+[[targets]]
+  hosts = ['fhz-mes17-01.cha.axione.fr']
+  [targets.tags]
+     plaque = 'cha'
+     equip = 'fhz'
+     target = 'fhz-mes17-01'
+
+[[targets]]
+  hosts = ['fhz-mir86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mir86-02'
+
+[[targets]]
+  hosts = ['fhz-lho86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-lho86-02'
+
+[[targets]]
+  hosts = ['fhz-seg49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-seg49-01'
+
+[[targets]]
+  hosts = ['fhz-vig86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-vig86-02'
+
+[[targets]]
+  hosts = ['fhz-vig86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-vig86-01'
+
+[[targets]]
+  hosts = ['fhz-gcy86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-gcy86-01'
+
+[[targets]]
+  hosts = ['fhz-poi86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-poi86-01'
+
+[[targets]]
+  hosts = ['fhz-flx86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-flx86-02'
+
+[[targets]]
+  hosts = ['fhz-mir86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mir86-01'
+
+[[targets]]
+  hosts = ['fhz-ser86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-ser86-02'
+
+[[targets]]
+  hosts = ['fhz-abz19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-abz19-01'
+
+[[targets]]
+  hosts = ['fhz-cht86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-cht86-02'
+
+[[targets]]
+  hosts = ['fhz-ser86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-ser86-01'
+
+[[targets]]
+  hosts = ['fhz-cht86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-cht86-01'
+
+[[targets]]
+  hosts = ['fhz-prc86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-prc86-01'
+
+[[targets]]
+  hosts = ['fhz-flx86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-flx86-01'
+
+[[targets]]
+  hosts = ['fhz-lrp86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-lrp86-01'
+
+[[targets]]
+  hosts = ['fhz-prc86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-prc86-02'
+
+[[targets]]
+  hosts = ['fhz-sab84-02.vau.axione.fr']
+  [targets.tags]
+     plaque = 'vau'
+     equip = 'fhz'
+     target = 'fhz-sab84-02'
+
+[[targets]]
+  hosts = ['fhz-cha49-01.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-cha49-01'
+
+[[targets]]
+  hosts = ['fhz-viv86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-viv86-02'
+
+[[targets]]
+  hosts = ['fhz-viv86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-viv86-01'
+
+[[targets]]
+  hosts = ['fhz-blc86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-blc86-01'
+
+[[targets]]
+  hosts = ['fhz-brl19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-brl19-01'
+
+[[targets]]
+  hosts = ['fhz-bla86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-bla86-01'
+
+[[targets]]
+  hosts = ['fhz-lat86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-lat86-02'
+
+[[targets]]
+  hosts = ['fhz-mbo26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-mbo26-01'
+
+[[targets]]
+  hosts = ['fhz-lat86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-lat86-01'
+
+[[targets]]
+  hosts = ['fhz-mig86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mig86-02'
+
+[[targets]]
+  hosts = ['fhz-mig86-03.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mig86-03'
+
+[[targets]]
+  hosts = ['fhz-lho86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-lho86-01'
+
+[[targets]]
+  hosts = ['fhz-mig86-04.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mig86-04'
+
+[[targets]]
+  hosts = ['fhz-mig86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mig86-01'
+
+[[targets]]
+  hosts = ['fhz-csi26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-csi26-01'
+
+[[targets]]
+  hosts = ['fhz-scy86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-scy86-01'
+
+[[targets]]
+  hosts = ['fhz-sar19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sar19-01'
+
+[[targets]]
+  hosts = ['fhz-ger71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ger71-02'
+
+[[targets]]
+  hosts = ['fhz-ant86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-ant86-02'
+
+[[targets]]
+  hosts = ['fhz-nio86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-nio86-02'
+
+[[targets]]
+  hosts = ['fhz-jar86-02.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-jar86-02'
+
+[[targets]]
+  hosts = ['fhz-jar86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-jar86-01'
+
+[[targets]]
+  hosts = ['fhz-ant86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-ant86-01'
+
+[[targets]]
+  hosts = ['fhz-bnm86-01.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-bnm86-01'
+
+[[targets]]
+  hosts = ['fhz-sfo19-04.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sfo19-04'
+
+[[targets]]
+  hosts = ['fhz-bau71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-bau71-03'
+
+[[targets]]
+  hosts = ['fhz-mbo26-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-mbo26-02'
+
+[[targets]]
+  hosts = ['fhz-bou72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-bou72-01'
+
+[[targets]]
+  hosts = ['fhz-aur19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-aur19-03'
+
+[[targets]]
+  hosts = ['fhz-shc19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-shc19-03'
+
+[[targets]]
+  hosts = ['fhz-sab84-01.vau.axione.fr']
+  [targets.tags]
+     plaque = 'vau'
+     equip = 'fhz'
+     target = 'fhz-sab84-01'
+
+[[targets]]
+  hosts = ['fhz-cec84-01.vau.axione.fr']
+  [targets.tags]
+     plaque = 'vau'
+     equip = 'fhz'
+     target = 'fhz-cec84-01'
+
+[[targets]]
+  hosts = ['fhz-lf427-01.enn.axione.fr']
+  [targets.tags]
+     plaque = 'enn'
+     equip = 'fhz'
+     target = 'fhz-lf427-01'
+
+[[targets]]
+  hosts = ['fhz-lta71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-lta71-03'
+
+[[targets]]
+  hosts = ['fhz-seh72-01.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-seh72-01'
+
+[[targets]]
+  hosts = ['fhz-uze19-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-uze19-01'
+
+[[targets]]
+  hosts = ['fhz-ma358-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ma358-01'
+
+[[targets]]
+  hosts = ['fhz-lor58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lor58-02'
+
+[[targets]]
+  hosts = ['fhz-rou21-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-rou21-03'
+
+[[targets]]
+  hosts = ['fhz-azr27-01.eur.axione.fr']
+  [targets.tags]
+     plaque = 'eur'
+     equip = 'fhz'
+     target = 'fhz-azr27-01'
+
+[[targets]]
+  hosts = ['fhz-fir58-03.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-fir58-03'
+
+[[targets]]
+  hosts = ['fhz-ger71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-ger71-01'
+
+[[targets]]
+  hosts = ['fhz-ta258-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ta258-02'
+
+[[targets]]
+  hosts = ['fhz-fir58-04.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-fir58-04'
+
+[[targets]]
+  hosts = ['fhz-our58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-our58-01'
+
+[[targets]]
+  hosts = ['fhz-mic58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-mic58-01'
+
+[[targets]]
+  hosts = ['fhz-our58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-our58-02'
+
+[[targets]]
+  hosts = ['fhz-tei58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-tei58-01'
+
+[[targets]]
+  hosts = ['fhz-lfe58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lfe58-01'
+
+[[targets]]
+  hosts = ['fhz-grm58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-grm58-01'
+
+[[targets]]
+  hosts = ['fhz-ger58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-ger58-01'
+
+[[targets]]
+  hosts = ['fhz-luy37-01.tou.axione.fr']
+  [targets.tags]
+     plaque = 'tou'
+     equip = 'fhz'
+     target = 'fhz-luy37-01'
+
+[[targets]]
+  hosts = ['fhz-mtl26-03.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-mtl26-03'
+
+[[targets]]
+  hosts = ['fhz-trf23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-trf23-02'
+
+[[targets]]
+  hosts = ['fhz-dam71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-dam71-01'
+
+[[targets]]
+  hosts = ['fhz-mtl26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-mtl26-01'
+
+[[targets]]
+  hosts = ['fhz-spm58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-spm58-02'
+
+[[targets]]
+  hosts = ['fhz-gra37-01.tou.axione.fr']
+  [targets.tags]
+     plaque = 'tou'
+     equip = 'fhz'
+     target = 'fhz-gra37-01'
+
+[[targets]]
+  hosts = ['fhz-mtl26-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-mtl26-02'
+
+[[targets]]
+  hosts = ['fhz-cor58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-cor58-01'
+
+[[targets]]
+  hosts = ['fhz-jou72-02.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-jou72-02'
+
+[[targets]]
+  hosts = ['fhz-scs07-02.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-scs07-02'
+
+[[targets]]
+  hosts = ['fhz-nav71-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-nav71-01'
+
+[[targets]]
+  hosts = ['fhz-va258-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-va258-01'
+
+[[targets]]
+  hosts = ['fhz-vlc58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-vlc58-01'
+
+[[targets]]
+  hosts = ['fhz-syb19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-syb19-03'
+
+[[targets]]
+  hosts = ['fhz-con58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-con58-01'
+
+[[targets]]
+  hosts = ['fhz-gut58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-gut58-01'
+
+[[targets]]
+  hosts = ['fhz-pla58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-pla58-02'
+
+[[targets]]
+  hosts = ['fhz-gou58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-gou58-01'
+
+[[targets]]
+  hosts = ['fhz-gut58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-gut58-02'
+
+[[targets]]
+  hosts = ['fhz-dun58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-dun58-01'
+
+[[targets]]
+  hosts = ['fhz-gou58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-gou58-02'
+
+[[targets]]
+  hosts = ['fhz-lor58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lor58-01'
+
+[[targets]]
+  hosts = ['fhz-mhe58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-mhe58-01'
+
+[[targets]]
+  hosts = ['fhz-cor58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-cor58-02'
+
+[[targets]]
+  hosts = ['fhz-pey87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-pey87-02'
+
+[[targets]]
+  hosts = ['fhz-nav71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-nav71-02'
+
+[[targets]]
+  hosts = ['fhz-sal26-01.adn.axione.fr']
+  [targets.tags]
+     plaque = 'adn'
+     equip = 'fhz'
+     target = 'fhz-sal26-01'
+
+[[targets]]
+  hosts = ['fhz-maz23-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-maz23-02'
+
+[[targets]]
+  hosts = ['fhz-sat72-04.sar.axione.fr']
+  [targets.tags]
+     plaque = 'sar'
+     equip = 'fhz'
+     target = 'fhz-sat72-04'
+
+[[targets]]
+  hosts = ['fhz-mou19-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-mou19-03'
+
+[[targets]]
+  hosts = ['fhz-vau58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-vau58-01'
+
+[[targets]]
+  hosts = ['fhz-cor58-03.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-cor58-03'
+
+[[targets]]
+  hosts = ['fhz-bcz49-01.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-bcz49-01'
+
+[[targets]]
+  hosts = ['fhz-vab58-02.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-vab58-02'
+
+[[targets]]
+  hosts = ['fhz-vab58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-vab58-01'
+
+[[targets]]
+  hosts = ['fhz-lor58-04.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lor58-04'
+
+[[targets]]
+  hosts = ['fhz-dam71-03.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-dam71-03'
+
+[[targets]]
+  hosts = ['fhz-lor58-03.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'fhz'
+     target = 'fhz-lor58-03'
+
+[[targets]]
+  hosts = ['fhz-elb23-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-elb23-01'
+
+[[targets]]
+  hosts = ['fhz-sgl49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-sgl49-02'
+
+[[targets]]
+  hosts = ['fhz-cle89-01.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-cle89-01'
+
+[[targets]]
+  hosts = ['fhz-lco39-03.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-lco39-03'
+
+[[targets]]
+  hosts = ['fhz-aup87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-aup87-01'
+
+[[targets]]
+  hosts = ['fhz-ozt39-06.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-ozt39-06'
+
+[[targets]]
+  hosts = ['fhz-mr239-01.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-mr239-01'
+
+[[targets]]
+  hosts = ['fhz-aig39-03.jur.axione.fr']
+  [targets.tags]
+     plaque = 'jur'
+     equip = 'fhz'
+     target = 'fhz-aig39-03'
+
+[[targets]]
+  hosts = ['fhz-scl89-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-scl89-02'
+
+[[targets]]
+  hosts = ['fhz-cde49-01.mtr.axione.fr']
+  [targets.tags]
+     plaque = 'mtr'
+     equip = 'fhz'
+     target = 'fhz-cde49-01'
+
+[[targets]]
+  hosts = ['fhz-dis49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-dis49-02'
+
+[[targets]]
+  hosts = ['fhz-fen23-03.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-fen23-03'
+
+[[targets]]
+  hosts = ['fhz-mig86-05.vie.axione.fr']
+  [targets.tags]
+     plaque = 'vie'
+     equip = 'fhz'
+     target = 'fhz-mig86-05'
+
+[[targets]]
+  hosts = ['fhz-jal49-02.mel.axione.fr']
+  [targets.tags]
+     plaque = 'mel'
+     equip = 'fhz'
+     target = 'fhz-jal49-02'
+
+[[targets]]
+  hosts = ['fhz-plm71-04.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-plm71-04'
+
+[[targets]]
+  hosts = ['fhz-gra87-02.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-gra87-02'
+
+[[targets]]
+  hosts = ['fhz-sjl87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-sjl87-01'
+
+[[targets]]
+  hosts = ['fhz-dou87-01.lim.axione.fr']
+  [targets.tags]
+     plaque = 'lim'
+     equip = 'fhz'
+     target = 'fhz-dou87-01'
+
+[[targets]]
+  hosts = ['fhz-mlc71-02.bou.axione.fr']
+  [targets.tags]
+     plaque = 'bou'
+     equip = 'fhz'
+     target = 'fhz-mlc71-02'
+

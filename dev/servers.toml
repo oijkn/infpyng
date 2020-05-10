@@ -1,0 +1,34 @@
+[[targets]]
+  hosts = ['wbs-sap58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'wbs'
+     target = 'wbs-sap58-01'
+
+[[targets]]
+  hosts = ['wbs-sbb58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'wbs'
+     target = 'wbs-sbb58-01'
+
+[[targets]]
+  hosts = ['wbs-sol58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'wbs'
+     target = 'wbs-sol58-01'
+
+[[targets]]
+  hosts = ['wbs-spm58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'wbs'
+     target = 'wbs-spm58-01'
+
+[[targets]]
+  hosts = ['wbs-fir58-01.nie.axione.fr']
+  [targets.tags]
+     plaque = 'nie'
+     equip = 'wbs'
+     target = 'wbs-fir58-01'

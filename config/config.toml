@@ -1,0 +1,30 @@
+[config]
+name = "infpyng config"
+description = "infpyng can ping multiple host(s) at once and return statistics"
+version = "0.0.1"
+updated = 2020-05-08T12:43:00Z
+
+[options]
+## Number of request packets to send to each target
+count = 2
+
+## The minimum amount of time in milliseconds between sending a ping packet
+## to any target (default is 10ms, minimum is 1ms)
+# interval = 100
+
+## The time to wait for a ping response in milliseconds
+## the default timeout is 500ms
+timeout = 2000
+
+## Backoff factor, this parameter is the value by which the wait time (−t) is
+## multiplied on each successive request; it must be entered as a
+## floating-point number (x.y). The default is 1.5.
+backoff = 1.0
+
+## Retry limit (default 3). This is the number of times an attempt at pinging
+## a target will be made, not including the first try.
+retry = 1
+
+## Set the typ of service flag ( TOS ). N can be either decimal or
+## hexadecimal (0xh) format.
+tos = 0
