@@ -23,7 +23,7 @@ class Parser:
         self.retry = int(3)
         self.tos = int(0)
 
-    def loadConfig(self):
+    def setConf(self):
         """
         Loads infpyng configuration from a TOML file.
         """
@@ -43,13 +43,13 @@ class Parser:
                 self.tos = int(config['options']['tos'])
 
             # loads targets from a TOML file(s)
-            Parser.loadTargets(self)
+            Parser.setTargets(self)
 
         else:
             print('Error: no config file found !')
             sys.exit(1)
 
-    def loadTargets(self):
+    def setTargets(self):
         """
         Loads targets from a TOML file(s).
         """
@@ -71,14 +71,14 @@ class Parser:
 
         return allTargets
 
-    def loadTags(self, host):
+    def setTags(self, host):
         """
         Loads tags from a TOML file.
         """
         # exclude config file from glob
         tomlFiles = [ x for x in self.globs if "config.toml" not in x ]
 
-        # parse targets and match keys 'tags' for wanted host
+        # infParse targets and match keys 'tags' for wanted host
         # --> https://stackoverflow.com/q/61714213/6281137
         for tomlFile in tomlFiles:
             targets = toml.load(tomlFile)
@@ -110,7 +110,7 @@ class Parser:
                 print(','.join(f'{key}={value}' for key,value in tags(item).items()))
             """
 
-    def parse(self, data, timestamp):
+    def infParse(self, data, timestamp):
         """
         Parse infpyng response from fping cmd.
         # '1.1.1.1 : xmt/rcv/%loss = 1/1/0%, min/avg/max = 1.35/1.35/1.35'
@@ -130,7 +130,7 @@ class Parser:
                 [min_, avg, max_] = s3.split("/")
 
                 # if tags is set
-                tags = Parser.loadTags(self, host.strip())
+                tags = Parser.setTags(self, host.strip())
                 if tags:
                     tags = ',' + tags
                 else:

@@ -30,14 +30,14 @@ def main(targets):
     # set timestamp for data point in nanosecond-precision Unix time
     timestamp = str(int(time.time() * 1000000000))
 
-    # parse output from fping for influx
-    p.parse(output, timestamp)
+    # infParse output from fping for influx
+    p.infParse(output, timestamp)
 
     sys.exit(0)
 
 if __name__ == "__main__":
     # init Class Parser
     p = Parser()
-    p.loadConfig()
+    p.setConf()
     # call main function with all targets
-    main(p.loadTargets())
+    main(p.setTargets())
