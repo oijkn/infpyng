@@ -145,7 +145,7 @@ class Parser:
                                 ',minimum_response_ms=' + min_ +
                                 ',packets_received=' + recv + 'i' +
                                 ',packets_transmitted=' + sent + 'i' +
-                                ',percent_packet_loss=' + loss.strip('%') + 'i' +
+                                ',percent_packet_loss=' + loss.strip('%') +
                                 ' ' + timestamp
                 )
 
