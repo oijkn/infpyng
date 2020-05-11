@@ -8,6 +8,9 @@
 **Requirements**
 - Python 3.x
 - fping 4.x
+- Telegraf 1.14.x
+- Grafana 6.7.x
+- Influxdb 1.8.x
 
 **Screenshots**
 ![alt text](ping-monitor-infpyng.png)
