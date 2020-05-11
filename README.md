@@ -27,7 +27,7 @@
 ```
 
 **2. Configure global settings in /usr/local/bin/infpyng/config/config.toml**
-```
+```toml
 [config]
 name = "infpyng config"
 description = "infpyng can ping multiple hosts at once and return statistics to Influxdb using Exec Input Plugin"
@@ -60,7 +60,7 @@ tos = 0
 ```
 
 **3. Configure host(s) file in /usr/local/bin/infpyng/config/hosts.toml**
-```
+```toml
 # you can use several configuration files for the hosts by respecting the structure as follows
 [[targets]]
   hosts = ['8.8.8.8', '8.8.4.4']
@@ -88,7 +88,7 @@ tos = 0
 ```
 
 **4. Configure your Telegraf plugin**
-```
+```toml
 # exmaple : /etc/telegraf/telegraf.conf
 [[inputs.exec]]
     commands = ["/path/of/your/python3 /usr/local/bin/infpyng/infpyng.py"]
