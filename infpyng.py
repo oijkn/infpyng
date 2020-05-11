@@ -3,39 +3,41 @@
 
 # Imports
 import sys, os, subprocess, time
-import reader, parser
-
+from parser import Parser
 
 def main(targets):
 
     args = [
         '/usr/sbin/fping',
         '-q',
-        '-c', str(reader.count),
-        '-i', str(reader.interval),
-        '-t', str(reader.timeout),
-        '-B', str(reader.backoff),
-        '-r', str(reader.retry),
-        '-O', str(reader.tos),
+        '-c', str(p.count),
+        '-i', str(p.interval),
+        '-t', str(p.timeout),
+        '-B', str(p.backoff),
+        '-r', str(p.retry),
+        '-O', str(p.tos),
     ]
 
     cmd = args + targets
     #print('cmd: %s' % cmd)
 
-    p = subprocess.run(cmd,
+    r = subprocess.run(cmd,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT)
 
-    output = p.stdout.decode("utf-8").strip()
+    output = r.stdout.decode("utf-8").strip()
 
     # set timestamp for data point in nanosecond-precision Unix time
     timestamp = str(int(time.time() * 1000000000))
 
-    parser.parse(output, timestamp)
+    # parse output from fping for influx
+    p.parse(output, timestamp)
 
     sys.exit(0)
 
 if __name__ == "__main__":
-    reader.loadConfig()
-    targets = reader.loadTargets()
-    main(targets)
+    # init Class Parser
+    p = Parser()
+    p.loadConfig()
+    # call main function with all targets
+    main(p.loadTargets())

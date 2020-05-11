@@ -1,5 +1,5 @@
 [[targets]]
-  hosts = ['server1.fr', 'server2.fr', 'server3.fr']
+  hosts = ['8.8.8.8', '8.8.4.4']
   [targets.tags]
      country = 'fr'
      server = 'french'
