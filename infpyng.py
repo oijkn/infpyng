@@ -9,7 +9,7 @@ from parser import Parser
 def infpyng(targets):
 
     args = [
-        '/usr/sbin/fping',
+        'fping',
         '-q',
         '-c', str(p.count),
         '-i', str(p.interval),
@@ -65,4 +65,4 @@ if __name__ == "__main__":
             setOutput(f.result(), tm)
 
     result = ''.join(p.result)
-    #print(result)
+    print(result)
