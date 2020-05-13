@@ -43,9 +43,11 @@ if __name__ == "__main__":
     # set all hosts to ping
     ips = p.setTargets()
     # get numbers of CPUs
-    cpu = len(os.sched_getaffinity(0))
+    cpu = len(os.sched_getaffinity(0)) * 10
     # set buckets (number of ips / number of CPUs)
     buckets = round(len(ips) / cpu)
+    if buckets == 0:
+        buckets = cpu
     # split list into other sublists
     chunks = [ips[x:x+buckets] for x in range(0, len(ips), buckets)]
     # pool of threads and schedule the execution of tasks
