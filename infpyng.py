@@ -43,7 +43,7 @@ if __name__ == "__main__":
     # set all hosts to ping
     ips = p.setTargets()
     # get numbers of CPUs
-    cpu = len(multiprocessing.cpu_count()) * 10
+    cpu = multiprocessing.cpu_count() * 10
     # set buckets (number of ips / number of CPUs)
     buckets = round(len(ips) / cpu)
     if buckets == 0:
