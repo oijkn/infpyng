@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 
 # Imports
-import sys, os, subprocess, time
+import sys, os, subprocess, time, functools
+from concurrent import futures
 from parser import Parser
 
-def main(targets):
+def infpyng(targets):
 
     args = [
         '/usr/sbin/fping',
@@ -21,23 +22,45 @@ def main(targets):
     cmd = args + targets
     #print('cmd: %s' % cmd)
 
-    r = subprocess.run(cmd,
+    r = subprocess.Popen(cmd,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT)
 
-    output = r.stdout.decode("utf-8").strip()
+    (output, errors) = r.communicate()
 
-    # set timestamp for data point in nanosecond-precision Unix time
-    timestamp = str(int(time.time() * 1000000000))
+    lines = output.decode('utf-8').strip()
 
-    # infParse output from fping for influx
-    p.infParse(output, timestamp)
+    return lines
 
-    sys.exit(0)
+def setOutput(result, time):
+    # parse output from fping to influxdb
+    p.infParse(result, time)
 
 if __name__ == "__main__":
     # init Class Parser
     p = Parser()
     p.setConf()
-    # call main function with all targets
-    main(p.setTargets())
+    # set all hosts to ping
+    ips = p.setTargets()
+    # get numbers of CPUs
+    cpu = len(os.sched_getaffinity(0))
+    # set buckets (number of ips / number of CPUs)
+    buckets = round(len(ips) / cpu)
+    # split list into other sublists
+    chunks = [ips[x:x+buckets] for x in range(0, len(ips), buckets)]
+    # pool of threads and schedule the execution of tasks
+    with futures.ProcessPoolExecutor(max_workers=cpu) as executor:
+        futs = [
+            (host, executor.submit(functools.partial(infpyng, host)))
+            for host in chunks
+        ]
+    # get the result
+    for ip, f in futs:
+        # set timestamp for data point in nanosecond-precision Unix time
+        tm = str(int(time.time() * 1000000000))
+        if f.result():
+            #print(f"result: {f.result()} for {ip}")
+            setOutput(f.result(), tm)
+
+    result = ''.join(p.result)
+    print(result)

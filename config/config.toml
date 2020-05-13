@@ -5,7 +5,7 @@ version = "0.0.1"
 
 [options]
 ## Number of request packets to send to each target
-count = 2
+count = 5
 
 ## The minimum amount of time in milliseconds between sending a ping packet
 ## to any target (default is 10ms, minimum is 1ms)

@@ -22,6 +22,8 @@ class Parser:
         self.backoff = float(1.5)
         self.retry = int(3)
         self.tos = int(0)
+        # list for final result
+        self.result = []
 
     def setConf(self):
         """
@@ -150,7 +152,7 @@ class Parser:
                 )
 
                 # final output formated for influx
-                print(influxOutput)
+                self.result.append('\n' + influxOutput)
 
     def findKeys(node, kv):
         """
