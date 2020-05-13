@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Imports
-import sys, os, subprocess, time, functools
+import sys, multiprocessing, subprocess, time, functools
 from concurrent import futures
 from parser import Parser
 
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     # set all hosts to ping
     ips = p.setTargets()
     # get numbers of CPUs
-    cpu = len(os.sched_getaffinity(0)) * 10
+    cpu = len(multiprocessing.cpu_count()) * 10
     # set buckets (number of ips / number of CPUs)
     buckets = round(len(ips) / cpu)
     if buckets == 0:
@@ -65,4 +65,4 @@ if __name__ == "__main__":
             setOutput(f.result(), tm)
 
     result = ''.join(p.result)
-    print(result)
+    #print(result)
