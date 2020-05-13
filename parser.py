@@ -22,6 +22,8 @@ class Parser:
         self.backoff = float(1.5)
         self.retry = int(3)
         self.tos = int(0)
+        # dict with all host -> tags
+        self.dictTags = {}
         # list for final result
         self.result = []
 
@@ -53,8 +55,12 @@ class Parser:
 
     def setTargets(self):
         """
-        Loads targets from a TOML file(s).
+        Loads targets from a TOML file(s) and prepare dict with
+        all tags if they are set.
         """
+        hosts = operator.itemgetter('hosts')
+        tags = operator.itemgetter('tags')
+
         # exclude config file from glob
         tomlFiles = [ x for x in self.globs if "config.toml" not in x ]
 
@@ -65,52 +71,19 @@ class Parser:
             targets = toml.load(tomlFile)
             list2d = Parser.findKeys(targets, 'hosts')
             allTargets = list(list2d) + allTargets
-            #pprint(allTargets)
+
+            # set dict with paired host -> tags
+            items = (item for item in targets['targets'])
+            for item in items:
+                if 'tags' in item:
+                    for host in item['hosts']:
+                        self.dictTags[host] = item['tags']
 
         # make flat list out of list of lists
         # --> https://stackoverflow.com/a/39493960
         allTargets = reduce(operator.concat, allTargets)
 
         return allTargets
-
-    def setTags(self, host):
-        """
-        Loads tags from a TOML file.
-        """
-        # exclude config file from glob
-        tomlFiles = [ x for x in self.globs if "config.toml" not in x ]
-
-        # infParse targets and match keys 'tags' for wanted host
-        # --> https://stackoverflow.com/q/61714213/6281137
-        for tomlFile in tomlFiles:
-            targets = toml.load(tomlFile)
-
-            #pprint('host: %s' % host)
-            #pprint('targets: %s' % targets['targets'])
-
-            for target in targets['targets']:
-                if host in target['hosts'] and 'tags' in target:
-                    tags = ','.join("{!s}={!r}".format(key, val) for (key, val) in target['tags'].items())
-                    tags = tags.replace("'", "")
-
-                    return tags
-
-            """ Alternative """
-            """
-            hosts = operator.itemgetter('hosts')
-            tags = operator.itemgetter('tags')
-            fmt = 'country={country},server={server}'
-            space = targets['targets']
-
-            term = host
-            # filter
-            items = (item for item in space if term in hosts(item))
-            for item in items:
-                #print(f'host:{term}')
-                #print(fmt.format(**tags(item)))
-            # or
-                print(','.join(f'{key}={value}' for key,value in tags(item).items()))
-            """
 
     def infParse(self, data, timestamp):
         """
@@ -132,9 +105,9 @@ class Parser:
                 [min_, avg, max_] = s3.split("/")
 
                 # if tags is set
-                tags = Parser.setTags(self, host.strip())
-                if tags:
-                    tags = ',' + tags
+                if self.dictTags.get(host.strip()) != None:
+                    item = self.dictTags.get(host.strip()).items()
+                    tags = ',' + ','.join(f'{key}={value}' for key,value in item)
                 else:
                     tags = ''
 
