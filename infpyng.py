@@ -65,4 +65,4 @@ if __name__ == "__main__":
             setOutput(f.result(), tm)
 
     result = ''.join(p.result)
-    #print(result)
+    print(result)
