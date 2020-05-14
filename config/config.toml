@@ -1,7 +1,7 @@
 [config]
 name = "infpyng config"
 description = "infpyng can ping multiple hosts at once and return statistics to Influxdb using Exec Input Plugin"
-version = "0.0.1"
+version = "0.0.2"
 
 [options]
 ## Number of request packets to send to each target
@@ -11,11 +11,16 @@ count = 5
 ## to any target (default is 10ms, minimum is 1ms)
 # interval = 100
 
+## this parameter sets the time in milliseconds that fping waits between
+## successive packets to an individual target. Default is 1000 and minimum is 10.
+## timeout (-t) value must be smaller or equal than period (-p) produces
+period = 1000
+
 ## The time to wait for a ping response in milliseconds
 ## the default timeout is 500ms
-timeout = 2000
+timeout = 1000
 
-## Backoff factor, this parameter is the value by which the wait time (−t) is
+## Backoff factor, this parameter is the value by which the wait time (-t) is
 ## multiplied on each successive request; it must be entered as a
 ## floating-point number (x.y). The default is 1.5.
 backoff = 1.0
