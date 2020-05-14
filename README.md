@@ -6,10 +6,12 @@
 - ***infpyng*** is perhaps your alternative to SmokePing !
 
 **Benchmark**
+
+These tests were performed from a FreeBSD OS with 1 CPU and 2 GB of memory
 ```
-IP to ping   : 474
-IP reachable : 454
-Finished in  : 11 seconds
+IP to ping   : 474          | 1299        | 2653        | 3388
+IP reachable : 454          | 1197        | 2552        | 3262
+Finished in  : 11 seconds   | 13 seconds  | 28 seconds  | 32 seconds
 ```
 
 **Requirements**
