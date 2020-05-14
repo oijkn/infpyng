@@ -5,6 +5,13 @@
 ***infpyng*** is a simple python script which utilize [fping](https://fping.org/) to probe endpoint through ICMP and parsing the output with [Telegraf - Exec Input Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/exec) to [Influxdb](https://github.com/influxdata/influxdb). The result can then be visualize through [Grafana](https://grafana.com/) with ease.
 - ***infpyng*** is perhaps your alternative to SmokePing !
 
+**Benchmark**
+```
+IP to ping   : 474
+IP reachable : 454
+Finished in  : 11 seconds
+```
+
 **Requirements**
 - Python 3.x
 - fping 4.x
