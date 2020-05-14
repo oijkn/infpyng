@@ -13,6 +13,7 @@ def infpyng(targets):
         '-q',
         '-c', str(p.count),
         '-i', str(p.interval),
+        '-p', str(p.period),
         '-t', str(p.timeout),
         '-B', str(p.backoff),
         '-r', str(p.retry),

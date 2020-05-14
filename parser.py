@@ -18,6 +18,7 @@ class Parser:
         # set global vars
         self.count = int(1)
         self.interval = int(10)
+        self.period = int(1000)
         self.timeout = int(500)
         self.backoff = float(1.5)
         self.retry = int(3)
@@ -37,6 +38,8 @@ class Parser:
                 self.count = int(config['options']['count'])
             if 'interval' in config['options']:
                 self.interval = int(config['options']['interval'])
+            if 'period' in config['options']:
+                self.period = int(config['options']['period'])
             if 'timeout' in config['options']:
                 self.timeout = int(config['options']['timeout'])
             if 'backoff' in config['options']:
