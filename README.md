@@ -15,7 +15,7 @@ Finished in  : 11 seconds   | 13 seconds  | 28 seconds  | 32 seconds
 ```
 
 **Requirements**
-- Python 3.x
+- Python 3.6.x or newer
 - fping 4.x
 - Telegraf 1.14.x
 - Grafana 6.7.x
