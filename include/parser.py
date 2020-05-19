@@ -52,6 +52,8 @@ class Parser:
         self.alive = []
         # default log file
         self.logfile = '/var/log/infpyng.log'
+        # gracefully quit ProcessPoolExecutor
+        self.bye = True
 
     def set_conf(self):
         """

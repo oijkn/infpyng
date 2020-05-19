@@ -28,7 +28,6 @@ def infpyng(targets):
     ]
 
     cmd = args + targets
-    # print('cmd: %s' % cmd)
 
     run = subprocess.Popen(cmd,
                            stdout=subprocess.PIPE,
@@ -43,21 +42,6 @@ def infpyng(targets):
 def set_output(r, t):
     # parse output from fping to influxdb
     p.inf_parse(r, t)
-
-
-def kill_childs():
-    cmd = ['pgrep', '-f', 'infpyng']
-    run = subprocess.Popen(cmd,
-                           stdout=subprocess.PIPE)
-
-    (output, errors) = run.communicate()
-    result = output.decode('utf-8').split()
-    # debug('result =', result)
-    for i in result:
-        # debug('PID = ', i)
-        if i != result[0]:
-            os.kill(int(i), signal.SIGTERM)
-            os.kill(int(i), signal.SIGINT)
 
 
 def main():
@@ -86,15 +70,12 @@ def main():
             (host, executor.submit(functools.partial(infpyng, host)))
             for host in chunks
         ]
-    # to kill child without waiting
-    executor.shutdown(wait=False)
 
     # get the result
     for ip, f in futs:
         # set timestamp for data point in nanosecond-precision Unix time
         timestamp = str(int(time.time() * 1000000000))
         if f.result():
-            # print(f"result: {f.result()} for {ip}")
             set_output(f.result(), timestamp)
 
     # list all alive/unreachable hosts
@@ -104,29 +85,37 @@ def main():
     for n in not_alive:
         log.warning(f'{n}')
 
-    # print final result for influxdb
-    result = ''.join(p.result)
-    print(result)
+    if not p.bye:
+        # exit gracefully if stopped or interrupt
+        executor.shutdown(wait=True)
+        log.warning('Interrupted requested...exiting')
+        log.info('################################')
+        log.logging.shutdown()
+        sys.exit()
+    else:
+        # print final result for influxdb
+        result = ''.join(p.result)
+        print(result)
 
-    # end timer perf
-    t_2 = time.perf_counter()
-    log.info('Finished in: {:.2f} seconds'.format(round(t_2 - t_1, 2)))
-    log.info('################################')
+        # end timer perf
+        t_2 = time.perf_counter()
+        log.info('Finished in: {:.2f} seconds'.format(round(t_2 - t_1, 2)))
+        log.info('################################')
+
+
+def handler(arg1, arg2):
+    p.bye = False
 
 
 if __name__ == "__main__":
-    try:
-        # init Class Parser
-        p = Parser()
-        # init logging
-        log.set_logger(p.logfile)
-        # start Infpyng
-        main()
-    except KeyboardInterrupt:
-        log.warning('Interrupted requested...exiting')
-        kill_childs()
-        try:
-            sys.exit(0)
-        finally:
-            log.logging.shutdown()
+    # process pool executor shutdown on signal
+    # --> https://stackoverflow.com/a/44163801
+    signal.signal(signal.SIGTERM, handler)
+    signal.signal(signal.SIGINT, handler)
+    # init Class Parser
+    p = Parser()
+    # init logging
+    log.set_logger(p.logfile)
+    # start Infpyng
+    main()
 
