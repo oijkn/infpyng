@@ -94,9 +94,15 @@ def main():
             # print(f"result: {f.result()} for {ip}")
             set_output(f.result(), timestamp)
 
+    # list all alive/unreachable hosts
+    not_alive = list(set(ips).difference(p.alive))
+    log.info(f'Targets alive: {len(p.result)}')
+    log.info(f'Targets unreachable: {len(not_alive)}')
+    for n in not_alive:
+        log.warning(f'{n}')
+
     # print final result for influxdb
     result = ''.join(p.result)
-    log.info(f'Targets alive: {len(p.result)}')
     print(result)
 
     # end timer perf

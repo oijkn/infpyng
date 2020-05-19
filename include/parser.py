@@ -48,6 +48,8 @@ class Parser:
         self.dictags = {}
         # list for final result
         self.result = []
+        # list of hots alive
+        self.alive = []
         # default log file
         self.logfile = '/var/log/infpyng.log'
 
@@ -148,7 +150,8 @@ class Parser:
                                  ',percent_packet_loss=' + loss.strip('%') +
                                  ' ' + timestamp
                                  )
-
+                # list with all alive hosts
+                self.alive.append(host.strip())
                 # final output formated for influx
                 self.result.append('\n' + influx_output)
 
