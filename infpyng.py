@@ -61,7 +61,9 @@ def kill_childs():
 
 
 def main():
+    log.info('################################')
     p.set_conf()
+    log.info('Settings loaded successfully')
     # set all hosts to ping
     ips = p.set_targets()
     log.info(f'Targets to ping: {len(ips)}')
@@ -78,6 +80,7 @@ def main():
     # start timer perf
     t_1 = time.perf_counter()
     # pool of threads and schedule the execution of tasks
+    log.info('Starting Infpyng multiprocessing')
     with futures.ProcessPoolExecutor(max_workers=cpu) as executor:
         futs = [
             (host, executor.submit(functools.partial(infpyng, host)))
@@ -108,6 +111,7 @@ def main():
     # end timer perf
     t_2 = time.perf_counter()
     log.info('Finished in: {:.2f} seconds'.format(round(t_2 - t_1, 2)))
+    log.info('################################')
 
 
 if __name__ == "__main__":
@@ -116,9 +120,7 @@ if __name__ == "__main__":
         p = Parser()
         # init logging
         log.set_logger(p.logfile)
-        log.info('Settings loaded successfully')
         # start Infpyng
-        log.info('Starting Infpyng multiprocessing')
         main()
     except KeyboardInterrupt:
         log.warning('Interrupted requested...exiting')
