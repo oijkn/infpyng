@@ -35,15 +35,14 @@ Finished in  : 11 seconds   | 13 seconds  | 28 seconds  | 32 seconds
 ## Usage
 **1. Ensure Correct Permission on \*.py files**
 ```
-# chmod 755 /usr/local/bin/infpyng/*.py
+# chmod -R 755 /usr/local/bin/infpyng/*.py
 ```
 
 **2. Configure global settings in /usr/local/bin/infpyng/config/config.toml**
 ```toml
-[config]
-name = "infpyng config"
-description = "infpyng can ping multiple hosts at once and return statistics to Influxdb using Exec Input Plugin"
-version = "0.0.1"
+[logging]
+## Set path for the log file
+path = "/var/log/infpyng.log"
 
 [options]
 ## Number of request packets to send to each target
