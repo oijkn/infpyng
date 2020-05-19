@@ -121,6 +121,22 @@ tos = 0
 > infpyng,country=de,host=TIG,server=germany,target=facebook.de average_response_ms=21.2,maximum_response_ms=21.8,minimum_response_ms=20.7,packets_received=2i,packets_transmitted=2i,percent_packet_loss=0i 1589193188000000000
 ```
 
+## Logger
+```
+2020-05-19 17:27:41     root     INFO     ################################
+2020-05-19 17:27:41     root     INFO     Settings loaded successfully
+2020-05-19 17:27:41     root     INFO     Targets to ping: 7
+2020-05-19 17:27:41     root     INFO     Multiprocessing: 40
+2020-05-19 17:27:41     root     INFO     Buckets: 40
+2020-05-19 17:27:41     root     INFO     Starting Infpyng multiprocessing
+2020-05-19 17:27:46     root     INFO     Targets alive: 5
+2020-05-19 17:27:46     root     INFO     Targets unreachable: 2
+2020-05-19 17:27:46     root     WARNING  no_host.xxx
+2020-05-19 17:27:46     root     WARNING  other_host.yyy
+2020-05-19 17:27:46     root     INFO     Finished in: 4.41 seconds
+2020-05-19 17:27:46     root     INFO     ################################
+```
+
 ## Metrics
 
 - infpyng
