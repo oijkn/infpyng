@@ -1,7 +1,11 @@
 [config]
 name = "infpyng config"
 description = "infpyng can ping multiple hosts at once and return statistics to Influxdb using Exec Input Plugin"
-version = "0.0.2"
+version = "0.0.3"
+
+[logging]
+## Set path for the log file
+path = "/var/log/infpyng.log"
 
 [options]
 ## Number of request packets to send to each target
