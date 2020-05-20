@@ -29,7 +29,7 @@ Finished in  : 11 seconds   | 13 seconds  | 28 seconds  | 32 seconds
 ```
 # cd /usr/local/bin/
 # git clone https://github.com/oijkn/infpyng.git
-# pip3 install toml
+# pip install -r requirements.txt
 ```
 
 ## Usage
