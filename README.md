@@ -155,10 +155,14 @@ tos = 0
 infpyng,country=de,host=TIG,server=germany,target=facebook.de average_response_ms=21.2,maximum_response_ms=21.8,minimum_response_ms=20.7,packets_received=2i,packets_transmitted=2i,percent_packet_loss=0i 1589193188000000000
 ```
 
-## Common Issues:
+## Common Issues
 
 **My script works when I run it by hand, but not when Telegraf is running as a service.**
 This may be related to the Telegraf service running as a different user. The official packages run Telegraf as the `telegraf` user and group on Linux systems. Resolved this with the following in sudoers:
 ```
 telegraf ALL=(ALL) NOPASSWD: /path/of/your/python3
 ```
+
+## Licensing
+
+This project is released under the terms of the MIT Open Source License. View LICENSE file for more information.
