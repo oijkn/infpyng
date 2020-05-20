@@ -163,6 +163,9 @@ This may be related to the Telegraf service running as a different user. The off
 telegraf ALL=(ALL) NOPASSWD: /path/of/your/python3
 ```
 
+## Github contributors lib
+- [Python lib for TOML](https://github.com/uiri/toml)
+
 ## Licensing
 
 This project is released under the terms of the MIT Open Source License. View LICENSE file for more information.
