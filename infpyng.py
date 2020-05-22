@@ -66,7 +66,7 @@ def main():
     # start timer perf
     t_1 = time.perf_counter()
     # pool of threads and schedule the execution of tasks
-    log.info(':: Starting Infpyng Multiprocessing')
+    log.info(':: Starting Infpyng Multiprocessing v%s' % core.version)
     with futures.ProcessPoolExecutor(max_workers=cpu) as executor:
         futs = [
             (host, executor.submit(functools.partial(infpyng, host)))

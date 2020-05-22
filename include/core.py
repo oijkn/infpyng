@@ -13,6 +13,8 @@ import toml
 
 
 class Infpyng:
+    # set version of script
+    version = ''
     # set conf.toml file
     config = ''
     # set options
@@ -70,6 +72,7 @@ class Infpyng:
             self.retry = int(options['retry'])
         if 'tos' in options:
             self.tos = int(options['tos'])
+        self.version = self.config['config']['version']
 
     def set_logger(self):
         # set globs of all TOML files
