@@ -164,7 +164,9 @@ telegraf ALL=(ALL) NOPASSWD: /path/of/your/python3
 ```
 
 ## Github contributors lib
+- [High performance ping tool](https://github.com/schweikert/fping)
 - [Python lib for TOML](https://github.com/uiri/toml)
+- [Python client for InfluxDB](https://github.com/influxdata/influxdb-python)
 
 ## Licensing
 
