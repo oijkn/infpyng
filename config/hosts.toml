@@ -1,0 +1,23 @@
+[[targets]]
+  hosts = ['8.8.8.8', '8.8.4.4', 'no_host.xxx', 'other_host.yyy']
+  [targets.tags]
+     country = 'us'
+     server = 'dns'
+
+[[targets]]
+  hosts = ['google.fr']
+  [targets.tags]
+     country = 'fr'
+     server = 'french'
+
+[[targets]]
+  hosts = ['amazon.es']
+  [targets.tags]
+     country = 'es'
+     server = 'spain'
+
+[[targets]]
+  hosts = ['facebook.de']
+  [targets.tags]
+     country = 'de'
+     server = 'germany'
