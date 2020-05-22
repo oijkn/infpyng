@@ -65,6 +65,9 @@ dbname = 'infpyng'
 
 
 [options]
+## Polling interval in seconds
+poll = 300
+
 ## Number of request packets to send to each target
 count = 5
 
