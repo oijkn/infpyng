@@ -1,11 +1,24 @@
 [config]
-name = "infpyng config"
-description = "infpyng can ping multiple hosts at once and return statistics to Influxdb using Exec Input Plugin"
-version = "0.0.4"
+name = "Infpyng Config"
+description = "Infpyng can ping multiple hosts at once and write data to InfluxDB"
+version = "0.0.6"
+
 
 [logging]
 ## Set path for the log file
 path = "/var/log/infpyng.log"
+
+
+[influxdb]
+## Hostname to connect to InfluxDB, defaults to 'localhost'
+hostname = 'localhost'
+
+## Port to connect to InfluxDB, defaults to 8086
+port = 8086
+
+## Database name to connect to InfluxDB
+dbname = 'infpyng'
+
 
 [options]
 ## Number of request packets to send to each target
@@ -31,7 +44,7 @@ backoff = 1.0
 
 ## Retry limit (default 3). This is the number of times an attempt at pinging
 ## a target will be made, not including the first try.
-retry = 1
+retry = 2
 
 ## Set the typ of service flag ( TOS ). N can be either decimal or
 ## hexadecimal (0xh) format.
