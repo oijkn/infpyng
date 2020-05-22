@@ -127,9 +127,11 @@ if __name__ == "__main__":
         sys.exit()
     log.info(':: Init InfluxDB successfully')
     # start Infpyng poller
+    log.info(':: Polling time every %ds' % core.poll)
     polling2.poll(
         lambda: main(),
-        step=60,
+        step=core.poll,
         poll_forever=True
     )
+
 

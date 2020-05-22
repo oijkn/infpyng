@@ -1,5 +1,5 @@
 [[targets]]
-  hosts = ['8.8.8.8', '8.8.4.4', 'no_host.xxx', 'other_host.yyy']
+  hosts = ['8.8.8.8', '8.8.4.4']
   [targets.tags]
      country = 'us'
      server = 'dns'

@@ -16,8 +16,9 @@ class Infpyng:
     # set version of script
     version = ''
     # set conf.toml file
-    config = ''
+    config = {}
     # set options
+    poll = int(60)
     count = int(1)
     interval = int(10)
     period = int(1000)
@@ -34,9 +35,9 @@ class Infpyng:
     # default log file
     logfile = '/var/log/infpyng.log'
     # set InfluxDB
-    hostname = 'localhost'
-    port = 8086
-    dbname = 'infpyng'
+    hostname = str('localhost')
+    port = int(8086)
+    dbname = str('infpyng')
     user = ''
     pwd = ''
 
@@ -58,6 +59,8 @@ class Infpyng:
         """ Loads infpyng configuration from a TOML file """
         self.config = toml.load(os.path.dirname(self.path) + "/config/config.toml")
         options = self.config['options']
+        if 'poll' in options:
+            self.poll = int(options['poll'])
         if 'count' in options:
             self.count = int(options['count'])
         if 'interval' in options:
@@ -236,4 +239,5 @@ class Influx:
     def write_data(self, points):
         self.influxdb_client.write_points(points, protocol='line')
         self.influxdb_client.close()
+
 
