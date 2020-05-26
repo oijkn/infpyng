@@ -47,6 +47,7 @@ def set_output(r, t):
 def exit_infpyng(signum, frame):
     core.bye = False
     log.warning(':: Interrupted requested...exiting')
+    sys.exit(0)
 
 
 def main():
@@ -95,7 +96,7 @@ def main():
         # exit gracefully if stopped or interrupt
         executor.shutdown(wait=True)
         log.logging.shutdown()
-        sys.exit()
+        sys.exit(0)
     else:
         # write final result to influxdb
         result = []
@@ -103,10 +104,8 @@ def main():
             result.append(i.strip())
         influx.write_data(result)
         log.info(':: Data written to DB successfully')
-
         # cleanup before looping poller
         core.clean()
-
         # end timer perf
         t_2 = time.perf_counter()
         log.info(':: Finished in : {:.2f} seconds'.format(round(t_2 - t_1, 2)))
