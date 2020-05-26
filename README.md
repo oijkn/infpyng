@@ -21,6 +21,7 @@ Finished in  : 11 seconds   | 13 seconds  | 28 seconds  | 32 seconds
 - Python 3.6.x or newer
 - fping 4.x
 - Grafana 6.7.x
+    - Plugin : [grafana-multibar-graph-panel](https://github.com/CorpGlory/grafana-multibar-graph-panel)
 - Influxdb 1.8.x
 
 **Screenshots**
