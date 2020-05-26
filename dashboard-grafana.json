@@ -1,8 +1,8 @@
 {
   "__inputs": [
     {
-      "name": "DS_TPING",
-      "label": "tPing",
+      "name": "DS_INFPYNG",
+      "label": "Infpyng",
       "description": "",
       "type": "datasource",
       "pluginId": "influxdb",
@@ -54,17 +54,17 @@
       }
     ]
   },
-  "description": "【infpyng】 is a simple python script which utilize fping to probe endpoint through ICMP and parsing the output with Telegraf - Exec Input Plugin to Influxdb",
+  "description": "【Infpyng】 is a simple python script which utilize fping to probe endpoint through ICMP and parsing the output with Telegraf - Exec Input Plugin to Influxdb",
   "editable": true,
   "gnetId": null,
   "graphTooltip": 1,
   "id": null,
-  "iteration": 1589198689193,
+  "iteration": 1590495836351,
   "links": [],
   "panels": [
     {
       "collapsed": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -82,7 +82,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "decimals": 2,
       "fill": 1,
       "fillGradient": 0,
@@ -233,7 +233,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -251,7 +251,7 @@
       "bars": true,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "decimals": 2,
       "displayBarsSideBySide": true,
       "fill": 1,
@@ -381,7 +381,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -398,13 +398,13 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "decimals": 2,
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
         "h": 12,
-        "w": 12,
+        "w": 24,
         "x": 0,
         "y": 25
       },
@@ -670,12 +670,12 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "gridPos": {
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 61
+        "y": 37
       },
       "id": 42,
       "panels": [],
@@ -692,8 +692,8 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_TPING}",
-      "decimals": 0,
+      "datasource": "${DS_INFPYNG}",
+      "decimals": 2,
       "format": "percent",
       "gauge": {
         "maxValue": 100,
@@ -704,9 +704,9 @@
       },
       "gridPos": {
         "h": 3,
-        "w": 4.8,
+        "w": 24,
         "x": 0,
-        "y": 62
+        "y": 38
       },
       "height": "100px",
       "id": 9,
@@ -745,7 +745,9 @@
         "fillColor": "rgba(31, 118, 189, 0.18)",
         "full": true,
         "lineColor": "rgb(31, 120, 193)",
-        "show": true
+        "show": true,
+        "ymax": 100,
+        "ymin": 0
       },
       "tableColumn": "",
       "targets": [
@@ -816,12 +818,12 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "gridPos": {
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 65
+        "y": 41
       },
       "id": 43,
       "panels": [],
@@ -838,7 +840,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "${DS_TPING}",
+      "datasource": "${DS_INFPYNG}",
       "format": "ms",
       "gauge": {
         "maxValue": 100,
@@ -849,9 +851,9 @@
       },
       "gridPos": {
         "h": 3,
-        "w": 4.8,
+        "w": 24,
         "x": 0,
-        "y": 66
+        "y": 42
       },
       "height": "100px",
       "id": 12,
@@ -964,7 +966,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_TPING}",
+        "datasource": "${DS_INFPYNG}",
         "definition": "SHOW TAG VALUES FROM \"infpyng\" WITH KEY = \"host\"",
         "hide": 0,
         "includeAll": false,
@@ -987,7 +989,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_TPING}",
+        "datasource": "${DS_INFPYNG}",
         "definition": "SHOW TAG VALUES FROM \"infpyng\" WITH KEY = \"country\" WHERE \"host\" =~ /$Host/",
         "hide": 0,
         "includeAll": false,
@@ -1010,7 +1012,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_TPING}",
+        "datasource": "${DS_INFPYNG}",
         "definition": "SHOW TAG VALUES FROM \"infpyng\" WITH KEY = \"server\" WHERE (\"host\" =~ /$Host/ AND \"country\" =~ /^$Country/)",
         "hide": 0,
         "includeAll": false,
@@ -1033,7 +1035,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_TPING}",
+        "datasource": "${DS_INFPYNG}",
         "definition": "SHOW TAG VALUES FROM \"infpyng\" WITH KEY = \"target\" WHERE (\"host\" =~ /^$Host/ AND \"country\" =~ /^$Country/ AND \"server\" =~ /^$Server/)",
         "hide": 0,
         "includeAll": false,
@@ -1076,10 +1078,10 @@
     ]
   },
   "timezone": "",
-  "title": "infpyng - Ping Monitor",
+  "title": "Infpyng - Ping Monitor",
   "uid": "",
   "variables": {
     "list": []
   },
-  "version": 3
+  "version": 1
 }
