@@ -10,10 +10,8 @@ import time
 import datetime
 from concurrent import futures
 
-import polling2
 
 import include.logger as log
-from include.core import Infpyng
 from include.core import Influx
 
 
@@ -65,7 +63,7 @@ def main():
     log.info(':: Buckets : %d' % buckets)
     # split list into other sublists
     chunks = [ips[x:x + buckets] for x in range(0, len(ips), buckets)]
-    # start timer perf
+    # start time perf
     t_1 = time.perf_counter()
 
     # pool of threads and schedule the execution of tasks
@@ -78,7 +76,7 @@ def main():
         # set round timestamp for data point in nanosecond-precision Unix time
         # if interval="300s" then always collect on 5:00, 10:00, 15:00, etc.
         now = (core.round_time(
-            datetime.datetime.now().replace(second=0, microsecond=0),
+            datetime.datetime.now(),
             date_delta=datetime.timedelta(seconds=core.poll),
             to='average'))
         # timestamp to insert into InfluxDB without drift time polling
@@ -136,5 +134,8 @@ if __name__ == "__main__":
     # start Infpyng poller
     log.info(':: Starting Infpyng Multiprocessing v%s' % core.version)
     log.info(':: Polling time every %ds' % core.poll)
-    polling2.poll(lambda: main(), step=core.poll, poll_forever=True)
+    start_time = time.time()
+    while True:
+        main()
+        time.sleep(core.poll - ((time.time() - start_time) % core.poll))
 
