@@ -45,7 +45,7 @@ Finished in  : 11 seconds   | 13 seconds  | 28 seconds  | 32 seconds
 [config]
 name = "Infpyng Config"
 description = "Infpyng can ping multiple hosts at once and write data to InfluxDB"
-version = "0.0.6"
+version = "0.0.7"
 
 
 [logging]
@@ -65,10 +65,10 @@ dbname = 'infpyng'
 
 
 [options]
-## Polling interval in seconds
+## Polling interval in seconds (default is 60s)
 poll = 300
 
-## Number of request packets to send to each target
+## Number of request packets to send to each target (default is 1 packet)
 count = 5
 
 ## The minimum amount of time in milliseconds between sending a ping packet
@@ -80,8 +80,7 @@ count = 5
 ## timeout (-t) value must be smaller or equal than period (-p) produces
 period = 1000
 
-## The time to wait for a ping response in milliseconds
-## the default timeout is 500ms
+## The time to wait for a ping response in milliseconds (default is 500ms)
 timeout = 1000
 
 ## Backoff factor, this parameter is the value by which the wait time (-t) is
@@ -96,7 +95,6 @@ retry = 2
 ## Set the typ of service flag ( TOS ). N can be either decimal or
 ## hexadecimal (0xh) format.
 tos = 0
-
 ```
 
 **3. Configure host(s) file in /usr/local/bin/infpyng/config/hosts.toml**
