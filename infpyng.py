@@ -73,18 +73,14 @@ def main():
         futs = [(host, executor.submit(functools.partial(infpyng, host)))
                 for host in chunks]
 
-    # end timer perf
-    t_2 = time.perf_counter()
-
     # get the result
     for ip, f in futs:
         # set round timestamp for data point in nanosecond-precision Unix time
         # if interval="300s" then always collect on 5:00, 10:00, 15:00, etc.
-        diff_polling = round(t_2 - t_1)
         now = (core.round_time(
             datetime.datetime.now().replace(second=0, microsecond=0),
             date_delta=datetime.timedelta(seconds=core.poll),
-            to='average', drift=diff_polling))
+            to='average'))
         # timestamp to insert into InfluxDB without drift time polling
         timestamp = datetime.datetime.timestamp(now)
         if f.result():
@@ -113,6 +109,8 @@ def main():
         # cleanup before looping poller
         core.clean()
 
+        # end timer perf
+        t_2 = time.perf_counter()
         log.info(':: Finished in : {:.2f} seconds'.format(round(t_2 - t_1, 2)))
         log.info(':: ---------------------------------------')
 

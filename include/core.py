@@ -208,8 +208,7 @@ class Infpyng:
     def round_time(self,
                    dt=None,
                    date_delta=datetime.timedelta(minutes=1),
-                   to='average',
-                   drift=0):
+                   to='average'):
         """
         Round a datetime object to a multiple of a timedelta
         dt : datetime.datetime object, default now.
@@ -226,12 +225,12 @@ class Infpyng:
         else:
             if to == 'up':
                 # // is a floor division, not a comment on following line (like in javascript):
-                rounding = (seconds + drift + dt.microsecond / 1000000 +
+                rounding = (seconds + dt.microsecond / 1000000 +
                             round_to) // round_to * round_to
             elif to == 'down':
-                rounding = (seconds + drift) // round_to * round_to
+                rounding = seconds // round_to * round_to
             else:
-                rounding = (seconds + drift + round_to / 2) // round_to * round_to
+                rounding = (seconds + round_to / 2) // round_to * round_to
 
         return dt + datetime.timedelta(0, rounding - seconds, -dt.microsecond)
 
