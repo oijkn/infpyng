@@ -127,16 +127,13 @@ tos = 0
 
 ## Logger
 ```
-2020-05-22 14:12:10 root INFO :: Targets to ping: 57
-2020-05-22 14:12:10 root INFO :: Multiprocessing: 40
-2020-05-22 14:12:10 root INFO :: Buckets: 1
-2020-05-22 14:12:10 root INFO :: Starting Infpyng Multiprocessing v0.0.6
-2020-05-22 14:12:18 root INFO :: Targets alive: 55
-2020-05-22 14:12:18 root INFO :: Targets unreachable: 2
-2020-05-22 14:12:18 root WARNING no_host.xxx
-2020-05-22 14:12:18 root WARNING other_host.yyy
-2020-05-22 14:12:18 root INFO :: Writing points to InfluxDB successfully
-2020-05-22 14:12:18 root INFO :: Finished in: 8.28 seconds
+2020-05-26 09:19:41 root INFO :: Total of targets : 1883
+2020-05-26 09:19:41 root INFO :: Multiprocessing : 40
+2020-05-26 09:19:41 root INFO :: Buckets : 47
+2020-05-26 09:19:51 root INFO :: Targets alive : 1883
+2020-05-26 09:19:51 root INFO :: Targets unreachable : 0
+2020-05-26 09:19:51 root INFO :: Data written to DB successfully
+2020-05-26 09:19:51 root INFO :: Finished in : 9.94 seconds
 ```
 
 ## Metrics
