@@ -6,6 +6,7 @@ import os
 import socket
 import logging
 import requests
+import datetime
 from influxdb import InfluxDBClient
 from functools import reduce
 
@@ -44,9 +45,7 @@ class Infpyng:
     def __init__(self):
         # set path where script is running
         self.path = os.path.realpath(
-            os.path.join(os.getcwd(),
-                         os.path.dirname(__file__))
-        )
+            os.path.join(os.getcwd(), os.path.dirname(__file__)))
         # gracefully quit ProcessPoolExecutor
         self.bye = True
 
@@ -57,18 +56,29 @@ class Infpyng:
 
     def set_conf(self):
         """ Loads infpyng configuration from a TOML file """
-        self.config = toml.load(os.path.dirname(self.path) + "/config/config.toml")
+        self.config = toml.load(
+            os.path.dirname(self.path) + "/config/config.toml")
         options = self.config['options']
         if 'poll' in options:
             self.poll = int(options['poll'])
+            if self.poll < 60:
+                self.poll = 60
         if 'count' in options:
             self.count = int(options['count'])
+            if self.count < 1:
+                self.count = 1
         if 'interval' in options:
             self.interval = int(options['interval'])
+            if self.interval < 1:
+                self.interval = 1
         if 'period' in options:
             self.period = int(options['period'])
+            if self.period < 10:
+                self.period = 10
         if 'timeout' in options:
             self.timeout = int(options['timeout'])
+            if self.timeout < self.period:
+                self.timeout = self.period
         if 'backoff' in options:
             self.backoff = float(options['backoff'])
         if 'retry' in options:
@@ -81,7 +91,8 @@ class Infpyng:
         # set globs of all TOML files
         globs = glob.glob(os.path.dirname(self.path) + "/config/*.toml")
         if any("config.toml" in f for f in globs):
-            self.config = toml.load(os.path.dirname(self.path) + "/config/config.toml")
+            self.config = toml.load(
+                os.path.dirname(self.path) + "/config/config.toml")
             log = self.config['logging']
             if 'path' in log:
                 self.logfile = str(log['path'])
@@ -89,7 +100,8 @@ class Infpyng:
             return True
 
     def set_influx(self):
-        self.config = toml.load(os.path.dirname(self.path) + "/config/config.toml")
+        self.config = toml.load(
+            os.path.dirname(self.path) + "/config/config.toml")
         influx = self.config['influxdb']
         if 'hostname' in influx:
             self.hostname = str(influx['hostname'])
@@ -155,22 +167,23 @@ class Infpyng:
                 # if tags is set
                 if self.dictags.get(host.strip()) is not None:
                     item = self.dictags.get(host.strip()).items()
-                    tags = ',' + ','.join(f'{key}={value}' for key, value in item)
+                    tags = ',' + ','.join(f'{key}={value}'
+                                          for key, value in item)
                 else:
                     tags = ''
 
                 # prepare output for influxdb
-                influx_output = ('infpyng,host=' + socket.gethostname() +
-                                 ',target=' + host.strip() +
-                                 tags +
-                                 ' average_response_ms=' + avg +
-                                 ',maximum_response_ms=' + max_ +
-                                 ',minimum_response_ms=' + min_ +
-                                 ',packets_received=' + recv + 'i' +
-                                 ',packets_transmitted=' + sent + 'i' +
-                                 ',percent_packet_loss=' + loss.strip('%') +
-                                 ' ' + timestamp
-                                 )
+                influx_output = (
+                    'infpyng,host=' + socket.gethostname() +
+                    ',target=' + host.strip() +
+                    tags +
+                    ' average_response_ms=' + avg +
+                    ',maximum_response_ms=' + max_ +
+                    ',minimum_response_ms=' + min_ +
+                    ',packets_received=' + recv + 'i' +
+                    ',packets_transmitted=' + sent + 'i' +
+                    ',percent_packet_loss=' + loss.strip('%') + ' ' +
+                    timestamp)
                 # list with all alive hosts
                 self.alive.append(host.strip())
                 # final output formated for influx
@@ -192,6 +205,36 @@ class Infpyng:
                 for k in self.find_keys(j, kv):
                     yield k
 
+    def round_time(self,
+                   dt=None,
+                   date_delta=datetime.timedelta(minutes=1),
+                   to='average',
+                   drift=0):
+        """
+        Round a datetime object to a multiple of a timedelta
+        dt : datetime.datetime object, default now.
+        dateDelta : timedelta object, we round to a multiple of this, default 1 minute.
+        -->  https://stackoverflow.com/a/32547090
+        """
+        round_to = date_delta.total_seconds()
+        if dt is None:
+            dt = datetime.datetime.now()
+        seconds = (dt - dt.min).seconds
+
+        if seconds % round_to == 0 and dt.microsecond == 0:
+            rounding = (seconds + round_to / 2) // round_to * round_to
+        else:
+            if to == 'up':
+                # // is a floor division, not a comment on following line (like in javascript):
+                rounding = (seconds + drift + dt.microsecond / 1000000 +
+                            round_to) // round_to * round_to
+            elif to == 'down':
+                rounding = (seconds + drift) // round_to * round_to
+            else:
+                rounding = (seconds + drift + round_to / 2) // round_to * round_to
+
+        return dt + datetime.timedelta(0, rounding - seconds, -dt.microsecond)
+
     def clean(self):
         """ Reset vars for loop poller """
         self.dictags = {}
@@ -208,8 +251,7 @@ class Influx:
             password=Infpyng.pwd,
             ssl=False,
             verify_ssl=False,
-            timeout=30
-        )
+            timeout=30)
 
     def init_db(self):
         # disable log messages from urllib3 library
@@ -222,22 +264,25 @@ class Influx:
         else:
             databases = self.influxdb_client.get_list_database()
 
-            if len(list(filter(lambda x: x['name'] == Infpyng.dbname, databases))) == 0:
-                self.influxdb_client.create_database(Infpyng.dbname)  # Create if does not exist.
+            if len(
+                    list(
+                        filter(lambda x: x['name'] == Infpyng.dbname,
+                               databases))) == 0:
+                self.influxdb_client.create_database(
+                    Infpyng.dbname)  # Create if does not exist.
             else:
-                self.influxdb_client.switch_database(Infpyng.dbname)  # Switch to if does exist.
+                self.influxdb_client.switch_database(
+                    Infpyng.dbname)  # Switch to if does exist.
                 self.influxdb_client.create_retention_policy(  # Create etention
                     'one_year',  # name
                     '52w',  # duration
                     '1',  # replication
                     default=True,
-                    shard_duration='4w'
-                )
+                    shard_duration='4w')
 
             return self.influxdb_client
 
     def write_data(self, points):
         self.influxdb_client.write_points(points, protocol='line')
         self.influxdb_client.close()
-
 

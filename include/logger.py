@@ -17,12 +17,11 @@ def set_logger():
     handler = logging.FileHandler(core.logfile)
     formatter = logging.Formatter(
         '%(asctime)-s %(name)-4s %(levelname)-4s %(message)s',
-        '%Y-%m-%d %H:%M:%S'
-    )
+        '%Y-%m-%d %H:%M:%S')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
     logger.setLevel(logging.DEBUG)
-    
+
     if core.set_logger() is None:
         warning(':: No config file found...exiting')
         sys.exit()
