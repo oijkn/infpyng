@@ -160,7 +160,6 @@ infpyng,country=de,host=TIG,server=germany,target=facebook.de average_response_m
 - [High performance ping tool](https://github.com/schweikert/fping)
 - [Python lib for TOML](https://github.com/uiri/toml)
 - [Python client for InfluxDB](https://github.com/influxdata/influxdb-python)
-- [Powerful polling utility in Python](https://github.com/ddmee/polling2)
 
 ## Licensing
 
