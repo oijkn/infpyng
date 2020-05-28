@@ -102,14 +102,17 @@ def main():
         result = []
         for i in core.result:
             result.append(i.strip())
-        influx.write_data(result)
-        log.info(':: Data written to DB successfully')
-        # cleanup before looping poller
-        core.clean()
-        # end timer perf
-        t_2 = time.perf_counter()
-        log.info(':: Finished in : {:.2f} seconds'.format(round(t_2 - t_1, 2)))
-        log.info(':: ---------------------------------------')
+        # if InfluxDB is not reachable then restart process
+        if not influx.write_data(result):
+            main()
+        else:
+            log.info(':: Data written to DB successfully')
+            # cleanup before looping poller
+            core.clean()
+            # end timer perf
+            t_2 = time.perf_counter()
+            log.info(':: Finished in : {:.2f} seconds'.format(round(t_2 - t_1, 2)))
+            log.info(':: ---------------------------------------')
 
 
 if __name__ == "__main__":
@@ -127,7 +130,7 @@ if __name__ == "__main__":
     influx = Influx()
     # check if InfluxDB is reachable
     if not influx.init_db():
-        log.warning(":: Can't connect to InfluxDB...exiting")
+        log.error(":: Can't connect to InfluxDB...exiting")
         sys.exit()
     log.info(':: Init InfluxDB successfully')
     # start Infpyng poller

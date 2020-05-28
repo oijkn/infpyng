@@ -7,10 +7,13 @@ import socket
 import logging
 import requests
 import datetime
+import time
 from influxdb import InfluxDBClient
 from functools import reduce
 
 import toml
+
+import include.logger as log
 
 
 class Infpyng:
@@ -35,12 +38,6 @@ class Infpyng:
     alive = []
     # default log file
     logfile = '/var/log/infpyng.log'
-    # set InfluxDB
-    hostname = str('localhost')
-    port = int(8086)
-    dbname = str('infpyng')
-    user = ''
-    pwd = ''
 
     def __init__(self):
         # set path where script is running
@@ -52,7 +49,6 @@ class Infpyng:
     def init_infpyng(self):
         self.set_conf()
         self.set_targets()
-        self.set_influx()
 
     def set_conf(self):
         """ Loads infpyng configuration from a TOML file """
@@ -98,21 +94,6 @@ class Infpyng:
                 self.logfile = str(log['path'])
             os.chmod(self.logfile, 0o644)
             return True
-
-    def set_influx(self):
-        self.config = toml.load(
-            os.path.dirname(self.path) + "/config/config.toml")
-        influx = self.config['influxdb']
-        if 'hostname' in influx:
-            self.hostname = str(influx['hostname'])
-        if 'port' in influx:
-            self.port = int(influx['port'])
-        if 'dbname' in influx:
-            self.dbname = str(influx['dbname'])
-        if 'username' in influx:
-            self.user = str(influx['username'])
-        if 'password' in influx:
-            self.pwd = str(influx['password'])
 
     def set_targets(self):
         """
@@ -242,12 +223,36 @@ class Infpyng:
 
 
 class Influx:
+    # set InfluxDB
+    hostname = str('localhost')
+    port = int(8086)
+    dbname = str('infpyng')
+    user = ''
+    pwd = ''
+
     def __init__(self):
+        # set path where script is running
+        self.path = os.path.realpath(
+            os.path.join(os.getcwd(), os.path.dirname(__file__)))
+        self.config = toml.load(
+            os.path.dirname(self.path) + "/config/config.toml")
+        influx = self.config['influxdb']
+        if 'hostname' in influx:
+            self.hostname = str(influx['hostname'])
+        if 'port' in influx:
+            self.port = int(influx['port'])
+        if 'dbname' in influx:
+            self.dbname = str(influx['dbname'])
+        if 'username' in influx:
+            self.user = str(influx['username'])
+        if 'password' in influx:
+            self.pwd = str(influx['password'])
+        # configure connexion to InfluxDB
         self.influxdb_client = InfluxDBClient(
-            host=Infpyng.hostname,
-            port=Infpyng.port,
-            username=Infpyng.user,
-            password=Infpyng.pwd,
+            host=self.hostname,
+            port=self.port,
+            username=self.user,
+            password=self.pwd,
             ssl=False,
             verify_ssl=False,
             timeout=30)
@@ -265,23 +270,29 @@ class Influx:
 
             if len(
                     list(
-                        filter(lambda x: x['name'] == Infpyng.dbname,
+                        filter(lambda x: x['name'] == self.dbname,
                                databases))) == 0:
                 self.influxdb_client.create_database(
-                    Infpyng.dbname)  # Create if does not exist.
-            else:
-                self.influxdb_client.switch_database(
-                    Infpyng.dbname)  # Switch to if does exist.
-                self.influxdb_client.create_retention_policy(  # Create etention
-                    'one_year',  # name
-                    '52w',  # duration
-                    '1',  # replication
-                    default=True,
-                    shard_duration='4w')
+                    self.dbname)  # Create if does not exist.
+
+            self.influxdb_client.switch_database(
+                self.dbname)  # Switch to if does exist.
+            self.influxdb_client.create_retention_policy(  # Create retention
+                'one_year',  # name
+                '52w',  # duration
+                '1',  # replication
+                default=True,
+                shard_duration='4w')
 
             return self.influxdb_client
 
     def write_data(self, points):
-        self.influxdb_client.write_points(points, protocol='line')
-        self.influxdb_client.close()
+        try:
+            self.influxdb_client.write_points(points, protocol='line')
+            self.influxdb_client.close()
+            return True
+        except requests.exceptions.ConnectionError:
+            log.error(':: Entry was not recorded, Influx connection error')
+            log.info(':: Sleep time to %s sec' % str(20))
+            time.sleep(20)
 

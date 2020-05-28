@@ -43,3 +43,8 @@ def warning(msg):
     logger = logging.getLogger()
     logger.warning(msg)
 
+
+def error(msg):
+    logger = logging.getLogger()
+    logger.error(msg)
+
