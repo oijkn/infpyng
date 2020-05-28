@@ -21,8 +21,8 @@ Those tests were performed from CentOS 8 with 1 CPU and 2 GB of memory
 | 3388 | 3262 | 32 seconds |
 
 **Screenshots**  
-![alt text](screenshot/ping-monitor-infpyng.png) 
-  
+<img src="screenshot/ping-monitor-infpyng.png" width="350">  
+
 ## Requirements
 - Grafana 6.7.x  
   - Plugin : [grafana-multibar-graph-panel](https://github.com/CorpGlory/grafana-multibar-graph-panel)  
