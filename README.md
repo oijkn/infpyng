@@ -25,7 +25,7 @@ Finished in  : 11 seconds   | 13 seconds  | 28 seconds  | 32 seconds
 - Influxdb 1.8.x
 
 **Screenshots**
-![alt text](ping-monitor-infpyng.png)
+![alt text](screenshot/ping-monitor-infpyng.png)
 
 ## Installation
 **Download infpyng project and place it inside /usr/local/bin/**
