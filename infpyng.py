@@ -131,6 +131,7 @@ if __name__ == "__main__":
     # check if InfluxDB is reachable
     if not influx.init_db():
         log.error(":: Can't connect to InfluxDB...exiting")
+        log.eprint(":: Infpyng :: Can't connect to InfluxDB...exiting")
         sys.exit()
     log.info(':: Init InfluxDB successfully')
     # start Infpyng poller
@@ -140,4 +141,3 @@ if __name__ == "__main__":
     while True:
         main()
         time.sleep(core.poll - ((time.time() - start_time) % core.poll))
-
