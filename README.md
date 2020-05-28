@@ -122,7 +122,7 @@ The command started using `docker exec` only runs while the container’s is run
 	
 	`# vi /somewhere/in/your/host/infpyng/config/hosts.toml`
   
-  4. Run Infpyng python script  
+4. Run Infpyng python script  
   
 	`# python infpyng.py &`
 
