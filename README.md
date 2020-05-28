@@ -51,8 +51,7 @@ The hosts.toml file will have the list of all the hosts to ping.
 
 3. Run the copy command on the container to add your config/hosts files
 
-	`# docker cp /path/from/your/host/config.toml infpyng-tmp:/app/infpyng/config`
-	
+	`# docker cp /path/from/your/host/config.toml infpyng-tmp:/app/infpyng/config`<br>	
 	`# docker cp /path/from/your/host/hosts.toml infpyng-tmp:/app/infpyng/config`
 
 4. Commit the container as a new image
@@ -63,10 +62,10 @@ The hosts.toml file will have the list of all the hosts to ping.
 
 	`# docker run -d -it --name infpyng -h docker-infpyng oijkn/infpyng:1.0.0`
 
-	> **Optional:** You can delete the temporary image you just created.
-	> // Get the CONTAINER ID
-	> docker ps -a
-	> // Remove it from Docker
+	> **Optional:** You can delete the temporary image you just created.<br>
+	> // Get the CONTAINER ID<br>
+	> docker ps -a<br>
+	> // Remove it from Docker<br>
 	> docker rm 53191e1f1408
 
 #### SSH to Infpyng Docker
@@ -106,10 +105,8 @@ The command started using `docker exec` only runs while the container’s is run
 
 1. Download Infpyng project
 
-	`# cd /somewhere/in/your/host`
-	
-	`# git clone https://github.com/oijkn/infpyng.git`
-	
+	`# cd /somewhere/in/your/host`<br>	
+	`# git clone https://github.com/oijkn/infpyng.git`<br>	
 	`# pip install -r requirements.txt`
 
 2. Ensure correct permission on \*.py files
@@ -118,14 +115,18 @@ The command started using `docker exec` only runs while the container’s is run
   
 3. Edit your custom settings  (conf + hosts)
 
-	`# vi /somewhere/in/your/host/infpyng/config/config.toml`
-	
+	`# vi /somewhere/in/your/host/infpyng/config/config.toml`<br>	
 	`# vi /somewhere/in/your/host/infpyng/config/hosts.toml`
   
 4. Run Infpyng python script  
   
 	`# python infpyng.py &`
 
+## Grafana
+
+Grafana allows you to query and visualize metrics stored in InfluxDB.
+
+You can use my [dashboard example](https://github.com/oijkn/infpyng/blob/master/dashboard-grafana/dashboard-grafana.json) or you can create your own.
   
 ## Logger  
 
@@ -180,5 +181,3 @@ infpyng,country=de,host=TIG,server=germany,target=facebook.de average_response_m
 ## Licensing  
   
 This project is released under the terms of the MIT Open Source License. View LICENSE file for more information.
-
-
