@@ -20,4 +20,4 @@ WORKDIR /app/infpyng
 
 RUN apk add --no-cache fping
 
-CMD ["python", "/app/infpyng/infpyng.py"]
+CMD ["python", "infpyng.py"]
