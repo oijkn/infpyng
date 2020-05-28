@@ -293,6 +293,7 @@ class Influx:
             return True
         except requests.exceptions.ConnectionError:
             log.error(':: Entry was not recorded, Influx connection error')
+            log.eprint(':: Infpyng :: Entry was not recorded, Influx connection error')
             log.info(':: Sleep time to %s sec' % str(20))
             time.sleep(20)
-
+            return False
