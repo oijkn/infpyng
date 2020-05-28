@@ -32,41 +32,28 @@ Those tests were performed from CentOS 8 with 1 CPU and 2 GB of memory
   
 ## Installation
 
-The basic configuration is embedded in the image of the Docker you will have to create the files config.toml and hosts.toml from your host which will then have to be pushed in the image.
-
-The `config.toml` file will contain your custom settings and especially the hostname/user/pass of your **InfluxDB**.
-
-The hosts.toml file will have the list of all the hosts to ping.
-
-> **Note:** For the following commands remember to adapt the tag version (example: **infpyng:1.0.0**) according to the image of the docker you are using.
+You must bind the configuration files with the container during the run for Infpyng to work normally, otherwise an error will appear in the systemd log.
 
 ### Docker usage
 1. Pull the image from hub.docker
 
-	`# docker pull oijkn/infpyng:1.0.0`
+	`# docker pull oijkn/infpyng`
 
-2. Create a container from the image called infpyng-tmp
+2. Run the container to add your config/hosts files
+    ```
+    docker run -d \
+        --name infpyng \
+        --hostname docker-infpyng \
+        --restart unless-stopped \
+        --mount src=/dir/from/host/infpyng/config,target=/infpyng/config,type=bind \
+        --mount src=/dir/from/host/infpyng.log,target=/var/log/infpyng.log,type=bind \
+        --log-driver=journald \
+        --log-opt tag="{{.Name}}" \
+        --env TZ=Europe/Paris \
+    oijkn/infpyng
+   ```
 
-	`# docker create --name infpyng-tmp oijkn/infpyng:1.0.0`
-
-3. Run the copy command on the container to add your config/hosts files
-
-	`# docker cp /path/from/your/host/config.toml infpyng-tmp:/app/infpyng/config`<br>	
-	`# docker cp /path/from/your/host/hosts.toml infpyng-tmp:/app/infpyng/config`
-
-4. Commit the container as a new image
-
-	`# docker commit infpyng-tmp oijkn/infpyng:1.0.0`
-
-5. Run the new image with your config files
-
-	`# docker run -d -it --name infpyng -h docker-infpyng oijkn/infpyng:1.0.0`
-
-	> **Optional:** You can delete the temporary image you just created.<br>
-	> // Get the CONTAINER ID<br>
-	> docker ps -a<br>
-	> // Remove it from Docker<br>
-	> docker rm 53191e1f1408
+	> **Note:** You must have the configuration files in the `config` [directory](https://github.com/oijkn/infpyng/tree/master/config) of the Git on your host and modify them according to your environment and modify the `TZ=Europe/Paris` depending on your location.
 
 #### SSH to Infpyng Docker
 
@@ -173,3 +160,4 @@ infpyng,country=de,host=TIG,server=germany,target=facebook.de average_response_m
 ## Licensing  
   
 This project is released under the terms of the MIT Open Source License. View LICENSE file for more information.
+
