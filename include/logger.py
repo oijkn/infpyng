@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
 import logging
 import sys
 
@@ -23,7 +24,8 @@ def set_logger():
     logger.setLevel(logging.DEBUG)
 
     if core.set_logger() is None:
-        warning(':: No config file found...exiting')
+        error(':: No config file found...exiting')
+        eprint(':: Infpyng :: No config file found...exiting')
         sys.exit()
 
     return core
@@ -48,3 +50,6 @@ def error(msg):
     logger = logging.getLogger()
     logger.error(msg)
 
+
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
