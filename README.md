@@ -1,4 +1,5 @@
 
+
 # Welcome to Infpyng  !
   
 ## Introduction  
@@ -41,40 +42,48 @@ The hosts.toml file will have the list of all the hosts to ping.
 
 ### Docker usage
 1. Pull the image from hub.docker
-`docker pull oijkn/infpyng:1.0.0`
+
+	`docker pull oijkn/infpyng:1.0.0`
 
 2. Create a container from the image called infpyng-tmp
-`docker create --name infpyng-tmp oijkn/infpyng:1.0.0`
+
+	`docker create --name infpyng-tmp oijkn/infpyng:1.0.0`
 
 3. Run the copy command on the container to add your config/hosts files
-`docker cp /path/from/your/host/config.toml infpyng-tmp:/app/infpyng/config`
-`docker cp /path/from/your/host/hosts.toml infpyng-tmp:/app/infpyng/config`
+	```
+	docker cp /path/from/your/host/config.toml infpyng-tmp:/app/infpyng/config`
+	docker cp /path/from/your/host/hosts.toml infpyng-tmp:/app/infpyng/config
+	```
 
 4. Commit the container as a new image
-`docker commit infpyng-tmp oijkn/infpyng:1.0.0`
+
+	`docker commit infpyng-tmp oijkn/infpyng:1.0.0`
 
 5. Run the new image with your config files
-`docker run -d -it --name infpyng -h docker-infpyng oijkn/infpyng:1.0.0`
 
-> **Optional:** You can delete the temporary image you just created.
-> // Get the CONTAINER ID
-> docker ps -a
-> // Remove it from Docker
-> docker rm 53191e1f1408
+	`docker run -d -it --name infpyng -h docker-infpyng oijkn/infpyng:1.0.0`
+
+	> **Optional:** You can delete the temporary image you just created.
+	> // Get the CONTAINER ID
+	> docker ps -a
+	> // Remove it from Docker
+	> docker rm 53191e1f1408
 
 #### SSH to Infpyng Docker
 
 The command started using `docker exec` only runs while the container’s is running, and it is not restarted if the container is restarted.
 
 1. Retrieve container id
-`docker ps -a`
 
-| CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **5591dbd111e5** | oijkn/infpyng:1.0.0 | `"python infpyng.py"` | 13 seconds ago | Up 11 seconds | | infpyng |
+	`docker ps -a`
+
+	| CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |
+	| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+	| **5591dbd111e5** | oijkn/infpyng:1.0.0 | `"python infpyng.py"` | 13 seconds ago | Up 11 seconds | | infpyng |
 
 2. Retrieve container id
-`docker exec -it 5591dbd111e5 sh`
+
+	`docker exec -it 5591dbd111e5 sh`
 
 3. Show log file
 	```
@@ -102,14 +111,18 @@ The command started using `docker exec` only runs while the container’s is run
 	pip install -r requirements.txt  
 	```
 2. Ensure correct permission on \*.py files
-`chmod -R +x /somewhere/in/your/host/infpyng/*.py`
+
+	`chmod -R +x /somewhere/in/your/host/infpyng/*.py`
   
 3. Edit your custom settings  (conf + hosts)
-`vi /somewhere/in/your/host/infpyng/config/config.toml`
-`vi /somewhere/in/your/host/infpyng/config/hosts.toml`
+	```
+	vi /somewhere/in/your/host/infpyng/config/config.toml
+	vi /somewhere/in/your/host/infpyng/config/hosts.toml
+	```
   
-  4. Run Infpyng python script
-  `python infpyng.py &`
+  4. Run Infpyng python script  
+  
+  	`python infpyng.py &`
 
   
 ## Logger  
@@ -165,3 +178,4 @@ infpyng,country=de,host=TIG,server=germany,target=facebook.de average_response_m
 ## Licensing  
   
 This project is released under the terms of the MIT Open Source License. View LICENSE file for more information.
+
