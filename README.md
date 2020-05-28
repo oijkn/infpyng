@@ -159,14 +159,6 @@ By default the Infpyng logs are located in */var/log/infpyng.log*
     - average_response_ms (float)  
     - minimum_response_ms (float)  
     - maximum_response_ms (float)
-
-### Architecture
-```mermaid
-graph LR
-A[Metrics]  -->|Pull| B(Infpyng)
-B -->|Push| C((InfluxDB))
-C -->|Query| D{Grafana}
-```
   
 ### Example Output  
 ```  
