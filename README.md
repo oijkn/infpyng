@@ -21,7 +21,7 @@ Those tests were performed from CentOS 8 with 1 CPU and 2 GB of memory
 | 3388 | 3262 | 32 seconds |
 
 **Screenshots**  
-![alt text](ping-monitor-infpyng.png) 
+![alt text](screenshot/ping-monitor-infpyng.png) 
   
 ## Requirements
 - Grafana 6.7.x  
