@@ -4,31 +4,19 @@ from __future__ import print_function
 import logging
 import sys
 
-from include.core import Infpyng
 
-
-def set_logger():
-    # init Class Infpyng
-    core = Infpyng()
-
+def init_logger(logfile):
     # disable log messages from polling2 library
     logging.getLogger('polling2').setLevel(logging.WARNING)
 
     logger = logging.getLogger()
-    handler = logging.FileHandler(core.logfile)
+    handler = logging.FileHandler(logfile)
     formatter = logging.Formatter(
         '%(asctime)-s %(name)-4s %(levelname)-4s %(message)s',
         '%Y-%m-%d %H:%M:%S')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
     logger.setLevel(logging.DEBUG)
-
-    if core.set_logger() is None:
-        error(':: No config file found...exiting')
-        eprint(':: Infpyng :: No config file found...exiting')
-        sys.exit()
-
-    return core
 
 
 def debug(msg):
@@ -53,3 +41,12 @@ def error(msg):
 
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
+
+def error(msg):
+    logger = logging.getLogger()
+    logger.error(msg)
+
+
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+

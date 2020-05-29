@@ -3,6 +3,7 @@
 import glob
 import operator
 import os
+import sys
 import socket
 import logging
 import requests
@@ -36,17 +37,18 @@ class Infpyng:
     result = []
     # list of hots alive
     alive = []
-    # default log file
-    logfile = '/var/log/infpyng.log'
 
     def __init__(self):
         # set path where script is running
         self.path = os.path.realpath(
             os.path.join(os.getcwd(), os.path.dirname(__file__)))
+        # set defaut log file
+        self.logfile = os.path.dirname(self.path) + "/infpyng.log"
         # gracefully quit ProcessPoolExecutor
         self.bye = True
 
     def init_infpyng(self):
+        self.set_logger()
         self.set_conf()
         self.set_targets()
 
@@ -89,11 +91,20 @@ class Infpyng:
         if any("config.toml" in f for f in globs):
             self.config = toml.load(
                 os.path.dirname(self.path) + "/config/config.toml")
-            log = self.config['logging']
-            if 'path' in log:
-                self.logfile = str(log['path'])
+            logs = self.config['logging']
+            if 'path' in logs:
+                self.logfile = str(logs['path'])
+            # create file if it's not exist
+            file_exists = os.path.isfile(self.logfile)
+            if not file_exists:
+                with open(self.logfile, 'a'): pass
             os.chmod(self.logfile, 0o644)
-            return True
+            # init logging
+            log.init_logger(self.logfile)
+        else:
+            log.error(':: No config file found...exiting')
+            log.eprint(':: Infpyng :: No config file found...exiting')
+            sys.exit()
 
     def set_targets(self):
         """
@@ -297,3 +308,4 @@ class Influx:
             log.info(':: Sleep time to %s sec' % str(20))
             time.sleep(20)
             return False
+

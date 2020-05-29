@@ -6,12 +6,12 @@ version = "1.0.1"
 
 [logging]
 ## Set path for the log file
-path = "/var/log/infpyng.log"
+#path = "/var/log/infpyng.log"
 
 
 [influxdb]
 ## Hostname to connect to InfluxDB, defaults to 'localhost'
-hostname = 'localhost'
+hostname = '192.168.6.128'
 
 ## Port to connect to InfluxDB, defaults to 8086
 port = 8086

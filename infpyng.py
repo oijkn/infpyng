@@ -13,6 +13,7 @@ from concurrent import futures
 
 import include.logger as log
 from include.core import Influx
+from include.core import Infpyng
 
 
 def infpyng(targets):
@@ -121,8 +122,8 @@ if __name__ == "__main__":
     signal.signal(signal.SIGTERM, exit_infpyng)
     signal.signal(signal.SIGINT, exit_infpyng)
 
-    # init logging and if config OK then return Class core
-    core = log.set_logger()
+    # init Class Infpyng
+    core = Infpyng()
     # init Infpyng conf
     core.init_infpyng()
     log.info(':: Settings loaded successfully')
@@ -141,3 +142,4 @@ if __name__ == "__main__":
     while True:
         main()
         time.sleep(core.poll - ((time.time() - start_time) % core.poll))
+
