@@ -4,6 +4,7 @@ description = "Infpyng can ping multiple hosts at once and write data to InfluxD
 version = "1.0.2"
 
 
+[logging]
 ## Set path for the log file, by defaut log file will be created in
 ## current directory
 #path = "/var/log/infpyng.log"
