@@ -46,7 +46,7 @@ You must bind the configuration files with the container during the run for Infp
         --hostname docker-infpyng \
         --restart unless-stopped \
         --mount src=/dir/from/host/infpyng/config,target=/infpyng/config,type=bind \
-        --mount src=/dir/from/host/infpyng.log,target=/var/log/infpyng.log,type=bind \
+        --mount src=/dir/from/host/infpyng.log,target=/infpyng/infpyng.log,type=bind \
         --log-driver=journald \
         --log-opt tag="{{.Name}}" \
         --env TZ=Europe/Paris \
