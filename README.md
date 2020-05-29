@@ -92,7 +92,7 @@ The command started using `docker exec` only runs while the container’s is run
 
 1. Download Infpyng project
 
-	`# cd /somewhere/in/your/host`<br>	
+	`# cd /dir/from/host/`<br>	
 	`# git clone https://github.com/oijkn/infpyng.git`<br>	
 	`# pip install -r requirements.txt`
 
@@ -102,12 +102,12 @@ The command started using `docker exec` only runs while the container’s is run
   
 3. Edit your custom settings  (conf + hosts)
 
-	`# vi /somewhere/in/your/host/infpyng/config/config.toml`<br>	
-	`# vi /somewhere/in/your/host/infpyng/config/hosts.toml`
+	`# vi /dir/from/host/infpyng/config/config.toml`<br>	
+	`# vi /dir/from/host/infpyng/config/hosts.toml`
   
 4. Run Infpyng python script  
   
-	`# python infpyng.py &`
+	`# python /dir/from/host/infpyng/infpyng.py &`
 
 ## Grafana
 
