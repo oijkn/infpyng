@@ -1,17 +1,17 @@
 [config]
 name = "Infpyng Config"
 description = "Infpyng can ping multiple hosts at once and write data to InfluxDB"
-version = "1.0.1"
+version = "1.0.2"
 
 
-[logging]
-## Set path for the log file
+## Set path for the log file, by defaut log file will be created in
+## current directory
 #path = "/var/log/infpyng.log"
 
 
 [influxdb]
 ## Hostname to connect to InfluxDB, defaults to 'localhost'
-hostname = '192.168.6.128'
+hostname = 'localhost'
 
 ## Port to connect to InfluxDB, defaults to 8086
 port = 8086
