@@ -53,7 +53,7 @@ You must bind the configuration files with the container during the run for Infp
     oijkn/infpyng
    ```
 
-	> **Note:** You must have the configuration files in the `config` [directory](https://github.com/oijkn/infpyng/tree/master/config) of the Git on your host and modify them according to your environment and modify the `TZ=Europe/Paris` depending on your location.
+	> **Note:** You must have [config files](https://github.com/oijkn/infpyng/tree/master/config) on your host and edit them according to your environment and adapt the `TZ=Europe/Paris` depending on your location. 
 
 #### SSH to Infpyng Docker
 
