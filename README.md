@@ -87,6 +87,16 @@ The command started using `docker exec` only runs while the container’s is run
 	2020-05-28 08:54:20 root INFO :: Finished in : 4.44 seconds
 	2020-05-28 08:54:20 root INFO :: ---------------------------------------
 	```
+
+### Docker Compose usage (Stack)
+
+Multi-container Docker app built from the following services:
+
+* [InfluxDB](https://github.com/influxdata/influxdb) - time series database
+* [Chronograf](https://github.com/influxdata/chronograf) - admin UI for InfluxDB
+* [Grafana](https://github.com/grafana/grafana) - visualization UI for InfluxDB
+
+Useful for quickly setting up a monitoring stack for performance testing. Please refer to this link  [Infpyng-stack](https://github.com/oijkn/infpyng/tree/master/infpyng-stack) to create a performance testing environment in minutes.
   
 ### Github usage  
 
