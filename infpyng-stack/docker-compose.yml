@@ -8,21 +8,19 @@ services:
     volumes:
       - ./data/influxdb:/var/lib/influxdb
     env_file:
-      - .env
-    network_mode: host
+      - ./grafana-provisioning/config.monitoring
 
   chronograf:
     image: chronograf:latest
     container_name: infpyng_chronograf
     ports:
-      - '8888:8888'
+      - '127.0.0.1:8888:8888'
     volumes:
       - ./data/chronograf:/var/lib/chronograf
     depends_on:
       - influxdb
     environment:
-      - INFLUXDB_URL=http://127.0.0.1:8086
-    network_mode: host
+      - INFLUXDB_URL=http://influxdb:8086
 
   grafana:
     image: grafana/grafana:6.7.3
@@ -35,12 +33,12 @@ services:
     depends_on:
       - influxdb
     env_file:
-      - .env
-    network_mode: host
+      - ./grafana-provisioning/config.monitoring
 
   infpyng:
     image: oijkn/infpyng:latest
     container_name: infpyng_infpyng
+    hostname: infpyng
     depends_on:
       - influxdb
     volumes:
