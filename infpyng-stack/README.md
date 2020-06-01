@@ -30,7 +30,7 @@ To remove all images/containers:
 ```sh
 sh clear_all.sh
 ```
-> **Warning:** This will remove all the images and containers from your docker including the other ones than Infpyng
+> **Warning:** This will remove all the images and containers from your docker created by Infpyng
 
 ## Ports
 
