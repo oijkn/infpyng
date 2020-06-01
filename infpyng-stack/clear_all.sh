@@ -1,6 +1,6 @@
 docker-compose --project-name infpyng -f docker-compose.yml down
-docker rmi $(docker images | grep grafana | awk '{print $3}')
-docker rmi $(docker images | grep chronograf | awk '{print $3}')
-docker rmi $(docker images| grep influxdb | awk '{print $3}')
-docker rmi $(docker images | grep infpyng | awk '{print $3}')
+docker rmi influxdb:latest
+docker rmi chronograf:latest
+docker rmi grafana/grafana:6.7.3
+docker rmi oijkn/infpyng:latest
 rm -rf data/
