@@ -11,6 +11,4 @@ GF_AUTH_ANONYMOUS_ENABLED=true
 GF_AUTH_ANONYMOUS_ORG_NAME=public
 GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
 GF_SNAPSHOTS_EXTERNAL_ENABLED=false
-
-# can't access... perhaps dns problem ??
-#GF_INSTALL_PLUGINS=https://github.com/CorpGlory/grafana-multibar-graph-panel/archive/0.2.5.zip;multibar-graph-panel
+GF_INSTALL_PLUGINS=https://github.com/CorpGlory/grafana-multibar-graph-panel/archive/0.2.5.zip;multibar-graph-panel

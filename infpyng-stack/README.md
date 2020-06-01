@@ -68,3 +68,10 @@ The app creates a Grafana data source called `InfluxDB` that's connected to the 
 
 By default, the app create a Grafana dashboards from my [example](https://github.com/oijkn/infpyng/blob/master/dashboard-grafana/dashboard-grafana.json) that's configured to work with [Infpyng](https://github.com/oijkn/infpyng).
 
+## Troubleshooting
+
+If the containers don't communicate with each other, the problem is certainly the iptables rules.
+```sh
+firewall-cmd --zone=public --add-masquerade --permanent
+firewall-cmd --reload
+```
