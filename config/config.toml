@@ -20,6 +20,12 @@ port = 8086
 ## Database name to connect to InfluxDB
 dbname = 'infpyng'
 
+## Retention policy
+retention_name = 'one_year'
+retention_duration = '52w'
+replication = 1
+shard_duration = '4w'
+
 
 [options]
 ## Polling interval in seconds (default is 60s)

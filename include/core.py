@@ -240,6 +240,10 @@ class Influx:
     dbname = str('infpyng')
     user = ''
     pwd = ''
+    retention_name = 'one_year'
+    retention_duration = '52w'
+    replication = int(1)
+    shard_duration = '4w'
 
     def __init__(self):
         # set path where script is running
@@ -258,6 +262,14 @@ class Influx:
             self.user = str(influx['username'])
         if 'password' in influx:
             self.pwd = str(influx['password'])
+        if 'retention_name' in influx:
+            self.retention_name = str(influx['retention_name'])
+        if 'retention_duration' in influx:
+            self.retention_duration = str(influx['retention_duration'])
+        if 'replication' in influx:
+            self.replication = int(influx['replication'])
+        if 'shard_duration' in influx:
+            self.shard_duration = str(influx['shard_duration'])
         # configure connexion to InfluxDB
         self.influxdb_client = InfluxDBClient(
             host=self.hostname,
@@ -289,11 +301,11 @@ class Influx:
             self.influxdb_client.switch_database(
                 self.dbname)  # Switch to if does exist.
             self.influxdb_client.create_retention_policy(  # Create retention
-                'one_year',  # name
-                '52w',  # duration
-                '1',  # replication
+                self.retention_name,
+                self.retention_duration,
+                self.replication,
                 default=True,
-                shard_duration='4w')
+                shard_duration=self.shard_duration)
 
             return self.influxdb_client
 
